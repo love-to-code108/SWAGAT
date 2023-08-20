@@ -26,6 +26,27 @@ font-family: 'Ubuntu', sans-serif; */
   font-family:"netflix" ;
 }
 
+.font-netflix2{
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+::selection {
+  color: white;
+  background: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 #root{
 
   overflow: hidden;
@@ -48,9 +69,33 @@ font-family: 'Ubuntu', sans-serif; */
   pointer-events: none;
 }
 
+/* LANDING PAGE RELATED CSS BELOW THIS  */
+#LandingPage{
+
+  width: 100%;
+  height: 100svh;
+
+  background-color: black;
+
+  padding: 0 1rem;
+}
+
+.TwoK23{
+
+  line-height: 1;
+}
+
+#Hamburgermenu{
+
+  top: 1rem;
+  right: 1rem;
+
+  user-select: none;
+}
+
 @media (max-width:425px) {
 
   .LandingAnimationSrc{
-    height: 30rem;
+    height: 40rem;
   }
 }

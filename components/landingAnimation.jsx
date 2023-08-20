@@ -3,6 +3,8 @@ import "../src/index.css"
 // IMPORTING ASSETS BELOW
 import landingVideo from "../src/assets/videos/Netflix New Logo Animation 2019.mp4"
 
+
+// IMPORTING REACT AND OTHER LIBRARIES
 import { useEffect } from "react"
 import { gsap } from "gsap"
 
@@ -16,7 +18,7 @@ export const LandingAnimation = () => {
 
         gsap.to("#LandingAnimation",{
             scale:2,
-            duration:2,
+            duration:1,
             opacity:0,
         });
 
@@ -27,16 +29,24 @@ export const LandingAnimation = () => {
 
     useEffect(() => {
 
+        let counter = 0 ;
+
         // const landingAnimationAudio = ;
 
         const hello = () => {
+            if(counter == 0){
+                counter ++;
 
-            document.getElementById("landingAnimationVideo").play()
 
+                document.getElementById("landingAnimationVideo").play()
+    
+    
+                const timer = setTimeout(endStartingAnimation , 3000);
+    
+                timer()
 
-            const timer = setTimeout(endStartingAnimation , 3000);
-
-            timer()
+            }
+            
         }
         window.addEventListener("click",hello)
 
