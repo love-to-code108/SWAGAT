@@ -17,16 +17,27 @@ font-family: 'Sora', sans-serif;
 font-family: 'Ubuntu', sans-serif; */
 
 @font-face {
-  font-family:"netflix" ;
+  font-family: "netflix";
   src: url(./assets/fonts/NetflixSans-Regular.otf);
 }
 
-.font-netflix{
+.font-netflix {
 
-  font-family:"netflix" ;
+  font-family: "netflix";
 }
 
-#LandingAnimation{
+.font-netflix2 {
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+::selection {
+  color: white;
+  background: red;
+}
+
+
+/* COMING SOON PART THAT WILL BE COMMENTED OUT VERY SOON */
+#ComingSoon {
 
   width: 100%;
   height: 100svh;
@@ -34,9 +45,152 @@ font-family: 'Ubuntu', sans-serif; */
   background-color: black;
 }
 
-.LandingAnimationSrc{
+.ready {
+
+  bottom: 1rem;
+  font-weight: 700;
+
+}
+
+#Somethings {
+
+  overflow: hidden;
+
+
+}
+
+#SomethingsPara {
+  animation-name: something;
+  animation-duration: 1s;
+  /* animation-delay: 0.2s; */
+
+}
+
+@keyframes something {
+
+  from {
+    transform: translateY(5rem);
+  }
+
+  to {
+    transform: translateY(0rem);
+  }
+}
+
+
+#comingSoon {
+
+  overflow: hidden;
+}
+
+
+
+#comingSoonPara {
+
+  animation-name: comingSoon;
+  animation-duration: 1s;
+
+}
+
+
+
+@keyframes comingSoon {
+  from {
+    transform: translateY(5rem);
+
+  }
+
+  to {
+    transform: translateY(0rem);
+
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#root {
+
+  overflow: hidden;
+}
+
+#LandingAnimation {
+
+  width: 100%;
+  height: 100svh;
+
+  background-color: black;
+
+  position: fixed;
+
+  z-index: +100;
+}
+
+.LandingAnimationSrc {
 
   object-fit: cover;
-  /* height: rem; */
+  height: 100svh;
   pointer-events: none;
+}
+
+/* LANDING PAGE RELATED CSS BELOW THIS  */
+#LandingPage {
+
+  width: 100%;
+  height: 100svh;
+
+  background-color: black;
+
+  padding: 0 1rem;
+}
+
+.TwoK23 {
+
+  line-height: 1;
+}
+
+#Hamburgermenu {
+
+  top: 1rem;
+  right: 1rem;
+
+  user-select: none;
+}
+
+.bottomWhiteIcon {
+
+  position: absolute;
+  bottom: 1rem;
+
+  animation-name: bottomLogoAnimation;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes bottomLogoAnimation {
+
+  from {
+    transform: translateY(-0.5rem);
+  }
+
+  to {
+    transform: translateY(0rem);
+  }
+
+}
+
+@media (max-width:425px) {
+
+  .LandingAnimationSrc {
+    height: 40rem;
+  }
 }
