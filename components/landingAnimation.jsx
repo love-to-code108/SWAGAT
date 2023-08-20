@@ -2,9 +2,24 @@ import "../src/index.css"
 
 // IMPORTING ASSETS BELOW
 import landingVideo from "../src/assets/videos/Netflix New Logo Animation 2019.mp4"
-import landingAudio from "../src/assets/audio/Netflix New Logo Animation 2019.mp3"
+
+import { useEffect } from "react"
 
 export const LandingAnimation = () => {
+
+
+
+    useEffect(() => {
+
+        // const landingAnimationAudio = ;
+
+        const hello = () => {
+
+            document.getElementById("landingAnimationVideo").play()
+        }
+
+        window.addEventListener("click",hello)
+    },[])
 
 
 
@@ -15,12 +30,8 @@ export const LandingAnimation = () => {
 
 
 
-                <audio autoPlay loop >
-                    <source src={landingAudio} />
-                </audio>
-
-
-                <video autoPlay muted loop className="LandingAnimationSrc">
+                <video id="landingAnimationVideo" 
+                  className="LandingAnimationSrc">
                     <source src={landingVideo} />
                 </video>
 

@@ -37,6 +37,13 @@ font-family: 'Ubuntu', sans-serif; */
 .LandingAnimationSrc{
 
   object-fit: cover;
-  /* height: rem; */
+  /* height: 30rem; */
   pointer-events: none;
+}
+
+@media (max-width:425px) {
+
+  .LandingAnimationSrc{
+    height: 30rem;
+  }
 }
