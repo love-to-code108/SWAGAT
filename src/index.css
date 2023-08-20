@@ -26,18 +26,25 @@ font-family: 'Ubuntu', sans-serif; */
   font-family:"netflix" ;
 }
 
+#root{
+
+  overflow: hidden;
+}
+
 #LandingAnimation{
 
   width: 100%;
   height: 100svh;
 
   background-color: black;
+
+  position: fixed;
 }
 
 .LandingAnimationSrc{
 
   object-fit: cover;
-  /* height: 30rem; */
+  height: 100svh;
   pointer-events: none;
 }
 
