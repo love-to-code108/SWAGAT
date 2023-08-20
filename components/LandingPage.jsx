@@ -3,25 +3,38 @@ import "../src/index.css"
 
 // ALL ASSETS BELOW HERE
 import swagatLogo from "../src/assets/svg/g11267.svg"
+import bottomIcon from "../src/assets/svg/white.svg"
 
 export const LandingPage = () => {
 
 
 
+    const hamburgerMenu = () => {
+
+
+        
+    }
+
+
+
+
+
     return (
-        <div id="LandingPage" className="flex flex-col justify-center items-center">
+        <div id="LandingPage" className="flex flex-col justify-center items-center
+        " >
 
 
             {/* THE MENU BUTTON */}
-            <div id="Hamburgermenu" className="flex fixed">
+            <div id="Hamburgermenu" className="flex fixed
+            " onClick={hamburgerMenu}>
 
 
-                <div>
-                    <div className="hamburgerLines 
+                <div className=" mr-2">
+                    <div className="hamburgerLine1 
                      bg-white w-8 h-1 mt-1"></div>
-                    <div className="hamburgerLines 
+                    <div className="hamburgerLine2 
                      bg-white w-8 h-1 mt-1"></div>
-                    <div className="hamburgerLines 
+                    <div className="hamburgerLine3 
                      bg-white w-8 h-1 mt-1"></div>
                 </div>
 
@@ -62,6 +75,13 @@ export const LandingPage = () => {
                 <p className="TwoK23
                 font-netflix2 text-white text-3xl px-1 pt-1">2K23</p>
 
+            </div>
+
+
+
+            {/* BOTTOM ICON */}
+            <div className="bottomWhiteIcon">
+                <img src={bottomIcon} alt="" />
             </div>
 
         </div>

@@ -18,7 +18,7 @@ export const LandingAnimation = () => {
 
         gsap.to("#LandingAnimation",{
             scale:2,
-            duration:1,
+            duration:3,
             opacity:0,
         });
 

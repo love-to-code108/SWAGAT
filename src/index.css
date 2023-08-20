@@ -60,6 +60,8 @@ font-family: 'Ubuntu', sans-serif; */
   background-color: black;
 
   position: fixed;
+
+  z-index: +100;
 }
 
 .LandingAnimationSrc{
@@ -91,6 +93,28 @@ font-family: 'Ubuntu', sans-serif; */
   right: 1rem;
 
   user-select: none;
+}
+
+.bottomWhiteIcon{
+
+  position: absolute;
+  bottom: 1rem;
+
+  animation-name: bottomLogoAnimation;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes bottomLogoAnimation {
+
+  from{
+    transform: translateY(-0.5rem);
+  }
+  to{
+    transform: translateY(0rem);
+  }
+  
 }
 
 @media (max-width:425px) {

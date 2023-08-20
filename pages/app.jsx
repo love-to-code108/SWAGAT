@@ -13,7 +13,7 @@ export const SinglePageApp = () =>{
 
     return(
         <div>
-            {/* <LandingAnimation/> */}
+            <LandingAnimation/>
             <LandingPage/>
         </div>
     );
