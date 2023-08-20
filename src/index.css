@@ -17,16 +17,16 @@ font-family: 'Sora', sans-serif;
 font-family: 'Ubuntu', sans-serif; */
 
 @font-face {
-  font-family:"netflix" ;
+  font-family: "netflix";
   src: url(./assets/fonts/NetflixSans-Regular.otf);
 }
 
-.font-netflix{
+.font-netflix {
 
-  font-family:"netflix" ;
+  font-family: "netflix";
 }
 
-.font-netflix2{
+.font-netflix2 {
   font-family: 'Bebas Neue', sans-serif;
 }
 
@@ -37,7 +37,7 @@ font-family: 'Ubuntu', sans-serif; */
 
 
 /* COMING SOON PART THAT WILL BE COMMENTED OUT VERY SOON */
-#ComingSoon{
+#ComingSoon {
 
   width: 100%;
   height: 100svh;
@@ -45,28 +45,84 @@ font-family: 'Ubuntu', sans-serif; */
   background-color: black;
 }
 
-.ready{
+.ready {
 
   bottom: 1rem;
   font-weight: 700;
-  
+
+}
+
+#Somethings {
+
+  overflow: hidden;
+
+
+}
+
+#SomethingsPara {
+  animation-name: something;
+  animation-duration: 1s;
+  /* animation-delay: 0.2s; */
+
+}
+
+@keyframes something {
+
+  from {
+    transform: translateY(5rem);
+  }
+
+  to {
+    transform: translateY(0rem);
+  }
 }
 
 
-
-
-
-
-
-
-
-
-#root{
+#comingSoon {
 
   overflow: hidden;
 }
 
-#LandingAnimation{
+
+
+#comingSoonPara {
+
+  animation-name: comingSoon;
+  animation-duration: 1s;
+
+}
+
+
+
+@keyframes comingSoon {
+  from {
+    transform: translateY(5rem);
+
+  }
+
+  to {
+    transform: translateY(0rem);
+
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#root {
+
+  overflow: hidden;
+}
+
+#LandingAnimation {
 
   width: 100%;
   height: 100svh;
@@ -78,7 +134,7 @@ font-family: 'Ubuntu', sans-serif; */
   z-index: +100;
 }
 
-.LandingAnimationSrc{
+.LandingAnimationSrc {
 
   object-fit: cover;
   height: 100svh;
@@ -86,7 +142,7 @@ font-family: 'Ubuntu', sans-serif; */
 }
 
 /* LANDING PAGE RELATED CSS BELOW THIS  */
-#LandingPage{
+#LandingPage {
 
   width: 100%;
   height: 100svh;
@@ -96,12 +152,12 @@ font-family: 'Ubuntu', sans-serif; */
   padding: 0 1rem;
 }
 
-.TwoK23{
+.TwoK23 {
 
   line-height: 1;
 }
 
-#Hamburgermenu{
+#Hamburgermenu {
 
   top: 1rem;
   right: 1rem;
@@ -109,7 +165,7 @@ font-family: 'Ubuntu', sans-serif; */
   user-select: none;
 }
 
-.bottomWhiteIcon{
+.bottomWhiteIcon {
 
   position: absolute;
   bottom: 1rem;
@@ -122,18 +178,19 @@ font-family: 'Ubuntu', sans-serif; */
 
 @keyframes bottomLogoAnimation {
 
-  from{
+  from {
     transform: translateY(-0.5rem);
   }
-  to{
+
+  to {
     transform: translateY(0rem);
   }
-  
+
 }
 
 @media (max-width:425px) {
 
-  .LandingAnimationSrc{
+  .LandingAnimationSrc {
     height: 40rem;
   }
 }
