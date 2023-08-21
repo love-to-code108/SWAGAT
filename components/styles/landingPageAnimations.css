@@ -2,7 +2,7 @@
 
     width: 15rem;
     height: 100svh;
-    background-color: red;
+    background-color: white;
 
     position: fixed;
 
@@ -10,6 +10,10 @@
     right: -15rem;
 
     z-index: -1;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #Hamburgermenu{
@@ -19,6 +23,8 @@
 
 .hamLines{
     position: absolute;
+
+    height: 0.2rem;
 }
 
 .hamburgerLine1{
@@ -27,7 +33,8 @@
     transition-duration: 1s;
     transform-origin: center;
 
-    top: 0;
+    top: 0.35rem;
+    right: 0;
 }
 
 .hamburgerLine2{
@@ -36,6 +43,7 @@
     transform-origin: center;
 
     top: 0.7rem;
+    right: 0;
 }
 
 
@@ -44,12 +52,22 @@
     transition-duration: 1s;
     transform-origin: center;
 
-    top: 1.4rem;
+    top: 1.05rem;
+    right: 0;
 }
 
 #hamburgerMenuIcon{
 
     z-index: +1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    transition: all;
+    transition-duration: 1s;
+
+    right: 2.2rem;
 }
 
 .hamburgerLine1Anime{
@@ -87,9 +105,71 @@
 
 }
 
-.menuWrapperAnime{
+#menuWriting{
+    transition: all;
+    transition-duration: 1s;
+}
+
+.menuWrapperAnime1{
 
     transform: translateX(3.6rem);
     
 
+}
+
+.menuWrapperAnime2{
+
+    transform: translateX(2.6rem);
+}
+
+/* ADDING THE LINKS */
+
+/* .menuWrapper{} */
+.whatsapp{
+
+    /* background-color: white; */
+    /* font-family: "wednesday"; */
+    font-family: 'Bebas Neue', sans-serif;
+    /* font-family: "netflix"; */
+    color: #e50914;
+    font-size: 2rem;
+    font-weight: 500;
+
+    margin-bottom: 0.5rem;
+}
+
+.linkedin{
+
+    font-family: 'Bebas Neue', sans-serif;
+    color: #e50914;
+    font-size: 2rem;
+    font-weight: 500;
+
+    margin-bottom: 0.5rem;
+}
+
+.instagram{
+    font-family: 'Bebas Neue', sans-serif;
+    color: #e50914;
+    font-size: 2rem;
+    font-weight: 500;
+
+    margin-bottom: 2.5rem;
+    
+}
+
+.Register{
+
+    font-family: 'Bebas Neue', sans-serif;
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 500;
+
+    background-color: #e50914;
+    padding: 0.4rem;
+    padding-top: 0.7rem;
+
+    /* border: solid 2px #e50914; */
+
+    /* margin-bottom: 1.5rem; */
 }

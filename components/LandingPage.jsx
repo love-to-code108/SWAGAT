@@ -26,7 +26,8 @@ export const LandingPage = () => {
 
         const hamburgerLine2 = document.getElementsByClassName("hamburgerLine2")[0];
 
-        const MenuWrapper = document.getElementById("menuWrapper");
+        const MenuWrapper = document.getElementById("menuWriting");
+        const hamBurgerMenu = document.getElementById("hamburgerMenuIcon");
 
 
 
@@ -49,9 +50,9 @@ export const LandingPage = () => {
                 ease: "power3"
             })
 
-            gsap.to(".menuWriting", {
+            gsap.to("#menuWriting", {
                 color: "black",
-                duration: 1,
+                duration: 0,
                 ease: "power3"
             })
 
@@ -65,7 +66,8 @@ export const LandingPage = () => {
             hamburgerLine3.classList.add("hamburgerLine3Anime");
 
 
-            MenuWrapper.classList.add("menuWrapperAnime");
+            MenuWrapper.classList.add("menuWrapperAnime1");
+            hamBurgerMenu.classList.add("menuWrapperAnime2");
 
 
 
@@ -87,9 +89,9 @@ export const LandingPage = () => {
                 ease: "power3"
             })
 
-            gsap.to(".menuWriting", {
+            gsap.to("#menuWriting", {
                 color: "white",
-                duration: 1,
+                duration: 0,
                 ease: "power3"
             })
 
@@ -100,7 +102,8 @@ export const LandingPage = () => {
             hamburgerLine3.classList.remove("hamburgerLine3Anime");
 
 
-            MenuWrapper.classList.remove("menuWrapperAnime");
+            MenuWrapper.classList.remove("menuWrapperAnime1");
+            hamBurgerMenu.classList.remove("menuWrapperAnime2");
         }
 
     }
@@ -122,18 +125,18 @@ export const LandingPage = () => {
 
 
 
-                    <div id="hamburgerMenuIcon" className=" mr-2 relative w-8 h-5">
+                    <div id="hamburgerMenuIcon" className=" mr-2 fixed w-8 h-5">
                         <div className="hamburgerLine1 
-                     bg-white w-8 h-1 hamLines"></div>
+                     bg-white w-6 hamLines"></div>
                         <div className="hamburgerLine2 
-                     bg-white w-8 h-1 hamLines"></div>
+                     bg-white w-6 hamLines"></div>
                         <div className="hamburgerLine3 
-                     bg-white w-8 h-1 hamLines"></div>
+                     bg-white w-6 hamLines"></div>
                     </div>
 
 
-                    <p className="
-                text-white font-netflix2 text-2xl menuWriting ml-1" >
+                    <p id="menuWriting" className="
+                text-white font-netflix2 text-xl " >
                         MENU
                     </p>
 
@@ -146,6 +149,12 @@ export const LandingPage = () => {
 
 
                 <div id="HamburgerMenuAnimation">
+                    <div className="flex flex-col text-3xl items-end ">
+                        <a className="whatsapp" href="">Whatsapp</a>
+                        <a className="linkedin" href="">Linkedin</a>
+                        <a className="instagram" href="">Instagram</a>
+                        <a className="Register" href="">Participate</a>
+                    </div>
 
                 </div>
 
@@ -154,8 +163,8 @@ export const LandingPage = () => {
 
 
             {/* NOVATO FIESTA'S */}
-            <div className="flex justify-center items-center ">
-                <p className="
+            <div id="NovatoFiesta" className="flex justify-center items-center ">
+                <p className="novatoFiestaBox
                 font-netflix2 text-white border-2 text-2xl px-2 pt-1
                 mb-4
                 ">NOVATO FIESTA'S</p>
@@ -182,10 +191,10 @@ export const LandingPage = () => {
 
 
             {/* 2K23 */}
-            <div className="
+            <div id="twoK23" className="
              bg-red-600 flex items-center justify-center">
 
-                <p className="TwoK23
+                <p  className="TwoK23
                 font-netflix2 text-white text-3xl px-1 pt-1">2K23</p>
 
             </div>

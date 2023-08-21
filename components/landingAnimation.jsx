@@ -2,6 +2,7 @@ import "../src/index.css"
 
 // IMPORTING ASSETS BELOW
 import landingVideo from "../src/assets/videos/Netflix New Logo Animation 2019.mp4"
+// import landingVideo2 from "../src/assets/videos/swagat.mp4"
 
 
 // IMPORTING REACT AND OTHER LIBRARIES
@@ -51,6 +52,11 @@ export const LandingAnimation = () => {
         const _t = document.getElementsByClassName("_t")[0];
 
 
+        // const NovatoFiesta = document.getElementById("NovatoFiesta");
+        // const twoK23 = document.getElementById("twoK23");
+
+
+
 
         // CHANGING THE CSS THROUGH JAVASCRIPT
         _s.style.animationName = "_S";
@@ -59,6 +65,45 @@ export const LandingAnimation = () => {
         _g.style.animationName = "_G";
         _a2.style.animationName = "_A2";
         _t.style.animationName = "_T";
+
+
+        gsap.fromTo("#NovatoFiesta",{
+            y:10,
+            opacity:0,
+
+        },{
+            y:0,
+            duration:2,
+            delay:2,
+            opacity:1,
+            ease:"power4"
+        })
+        
+        
+        gsap.fromTo("#twoK23",{
+            y:-10,
+            opacity:0,
+
+        },{
+            y:0,
+            duration:2,
+            delay:2,
+            opacity:1,
+            ease:"power4"
+        })
+
+
+        gsap.fromTo("#menuWrapper",{
+            
+            opacity:0,
+        },{
+
+            x:0,
+            duration:2,
+            delay:2,
+            opacity:1,
+            ease:"power4"
+        })
         
 
 
@@ -84,8 +129,14 @@ export const LandingAnimation = () => {
             if (counter == 0) {
                 counter++;
 
+                document.getElementById("startingText").style.display="none"
+                
+                document.getElementById("startingText2").style.display="none"
 
-                document.getElementById("landingAnimationVideo").play()
+
+                
+                document.getElementById("landingAnimationVideo").play();
+
 
 
                 const timer = setTimeout(endStartingAnimation, 3000);
@@ -95,6 +146,9 @@ export const LandingAnimation = () => {
             }
 
         }
+
+
+
         window.addEventListener("click", hello)
 
     }, [])
@@ -103,6 +157,13 @@ export const LandingAnimation = () => {
 
     return (
         <div id="LandingAnimation" className=" flex justify-center items-center">
+
+                <p id="startingText" 
+                className="text-white t ">DO YOU KNOW WHAT COMES ONLY ONCE IN ONE LIFETIME?</p>
+
+                <p id="startingText2" className="t ">TAP TO START</p>
+
+
 
             <div>
 

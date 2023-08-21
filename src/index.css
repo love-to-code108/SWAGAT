@@ -21,6 +21,33 @@ font-family: 'Ubuntu', sans-serif; */
   src: url(./assets/fonts/NetflixSans-Regular.otf);
 }
 
+
+@font-face {
+  font-family: "wednesday";
+  src: url(./assets/fonts/Wednesday.ttf);
+}
+
+
+@font-face {
+  font-family: "lucifer";
+  src: url(./assets/fonts/luciferFont.ttf);
+}
+
+@font-face {
+  font-family: "breakingBad";
+  src: url(./assets/fonts/breakingBad.otf);
+}
+
+@font-face {
+  font-family: "squidGames";
+  src: url(./assets/fonts/squidGames.ttf);
+}
+
+@font-face {
+  font-family: "gameOfThrones";
+  src: url(./assets/fonts/gameOfThrones.ttf);
+}
+
 .font-netflix {
 
   font-family: "netflix";
@@ -128,6 +155,74 @@ font-family: 'Ubuntu', sans-serif; */
   overflow: hidden;
 }
 
+
+
+#startingText{
+
+  position: absolute;
+  font-family: "gameOfThrones";
+  font-size: 1.5rem;
+
+  text-align: center;
+
+  animation-name: StartingText;
+  animation-fill-mode: forwards;
+  animation-duration: 2s;
+  opacity: 0;
+
+  transition: 1s;
+
+}
+
+
+@keyframes StartingText {
+from{
+  opacity: 0;
+  transform: translateY(-1rem);
+}  
+to{
+  opacity: 1;
+  transform: translateY(0rem);
+}
+}
+
+
+#startingText2{
+
+  position: absolute;
+  font-family: "gameOfThrones";
+  color: white;
+
+  bottom: 10rem;
+
+  opacity: 0;
+  animation-name: StartingText2;
+  animation-duration: 5s;
+  animation-delay: 1.5s;
+  animation-fill-mode: forwards;
+
+  transition: 1s;
+
+}
+
+.text2{
+
+  display: none;
+}
+
+
+
+@keyframes StartingText2 {
+  
+  from{
+    /* transform: translateY(100rem); */
+    opacity: 0;
+  }
+  to{
+   /* transform: translateY(0rem); */
+    opacity: 1;
+  }
+}
 #LandingAnimation {
 
   width: 100%;
@@ -138,6 +233,8 @@ font-family: 'Ubuntu', sans-serif; */
   position: fixed;
 
   z-index: +100;
+
+
 }
 
 .LandingAnimationSrc {
