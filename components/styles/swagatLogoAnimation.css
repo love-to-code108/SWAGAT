@@ -1,0 +1,241 @@
+
+
+
+/* THE SWAGAT LOGO ANIMATIONS */
+._s{
+
+
+    /* animation-name: _S; */
+    animation-duration: 4s;
+    animation-delay: 0.4s;
+    animation-fill-mode: forwards;
+  
+  
+    stroke: #E50914;
+    stroke-dashoffset:29rem ;
+    stroke-dasharray:29rem ;
+
+    fill: #E50914;
+    fill-opacity: 0;
+    
+  }
+  
+  @keyframes _S {
+    0%{
+      stroke-dashoffset:29rem ;
+        fill-opacity: 0;
+    }
+    100%{
+        stroke-dashoffset:0rem ;
+        fill-opacity: 1;
+        
+  
+    }
+    
+  }
+  
+  
+  /* ANIMATING    W */
+  ._w{
+  
+  
+    /* animation-name: _W; */
+    animation-duration: 5s;
+    animation-delay: 0.4s;
+    animation-fill-mode: forwards;
+  
+  
+    stroke: #E50914;
+    stroke-dashoffset:46rem ;
+    stroke-dasharray:46rem ;
+
+    fill: #E50914;
+    fill-opacity: 0;
+    
+  }
+  
+  @keyframes _W {
+    0%{
+      stroke-dashoffset:46rem ;
+      fill-opacity: 0;
+      
+      
+    }
+    100%{
+        stroke-dashoffset:0rem ;
+        fill-opacity: 1;
+     
+  
+    }
+    
+  }
+  
+  
+  /* ANIMATING   A   */
+  
+  ._a{
+  
+  
+    /* animation-name: _A; */
+    animation-duration: 4s;
+    animation-delay: 0.4s;
+    animation-fill-mode: forwards;
+  
+  
+    stroke: #E50914;
+    stroke-dashoffset:19rem ;
+    stroke-dasharray:19rem ;
+
+    fill: #E50914;
+    fill-opacity: 0;
+    
+  }
+  
+  
+  @keyframes _A {
+    0%{
+      stroke-dashoffset:19rem ;
+      fill-opacity: 0;
+      
+    }
+    100%{
+        stroke-dashoffset:0rem ;
+        fill-opacity: 1;
+     
+  
+    }
+    
+  }
+  
+  
+  /* THIS IS FOR THE "" G "" */
+  
+  ._g{
+  
+  
+    /* animation-name: _G; */
+    animation-duration: 4s;
+    animation-delay: 0.4s;
+    animation-fill-mode: forwards;
+  
+  
+    stroke: #E50914;
+    stroke-dashoffset:28rem ;
+    stroke-dasharray:28rem ;
+    
+
+    fill: #E50914;
+    fill-opacity: 0;
+  }
+  
+  @keyframes _G {
+    0%{
+      stroke-dashoffset:28rem ;
+      fill-opacity: 0;
+      
+      
+    }
+    100%{
+        stroke-dashoffset:0rem ;
+        fill-opacity: 1;
+     
+  
+    }
+    
+  }
+  
+  
+  /* THIS IS FOR THE 2ND "" A "" */
+  ._a2{
+  
+  
+    /* animation-name: _A2; */
+    animation-duration: 4s;
+    animation-delay: 0.4s;
+    animation-fill-mode: forwards;
+  
+  
+    stroke: #E50914;
+    stroke-dashoffset:20rem ;
+    stroke-dasharray:20rem ;
+
+    fill: #E50914;
+    fill-opacity: 0;
+    
+  }
+  
+  @keyframes _A2 {
+    0%{
+      stroke-dashoffset:20rem ;
+      fill-opacity: 0;
+      
+      
+    }
+    100%{
+        stroke-dashoffset:0rem ;
+        fill-opacity: 1;
+     
+  
+    }
+    
+  }
+  
+  
+  /* THIS IF FOR THE "" T "" */
+  
+  ._t{
+  
+  
+    /* animation-name: _T; */
+    animation-duration: 4s;
+    animation-delay: 0.4s;
+    animation-fill-mode: forwards;
+  
+  
+    stroke: #E50914;
+    stroke-dashoffset:22rem ;
+    stroke-dasharray:22rem ;
+    fill: #E50914;
+    fill-opacity: 0;
+    
+  }
+  
+  @keyframes _T {
+    0%{
+      stroke-dashoffset:22rem ;
+      fill-opacity: 0;
+      
+      
+    }
+    100%{
+      stroke-dashoffset:0rem ;
+      fill-opacity: 1;
+  
+    }
+    
+  }
+
+
+  /* ADDING THE COLOR FILL USING ANIMATION */
+  .colorChanger{
+
+    /* animation-name: ColorChanger; */
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
+
+  }
+
+  @keyframes ColorChanger {
+    
+    from{
+        fill: none;
+        fill-opacity: 0;
+    }
+
+    to{
+        fill: #E50914;
+        fill-opacity: 1;
+    }
+  }
+

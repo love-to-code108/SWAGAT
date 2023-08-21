@@ -30,7 +30,7 @@ export const CommingSoon = () => {
             <br />
 
             <p className="text-white fixed ready font-netflix
-            lg:text-2xl">I HOPE YOUR ARE <span className=" text-[#E50914] ">READY</span> FOR IT</p>
+            lg:text-2xl">I HOPE YOU ARE <span className=" text-[#E50914] ">READY</span> FOR IT</p>
 
         </div>
     );
