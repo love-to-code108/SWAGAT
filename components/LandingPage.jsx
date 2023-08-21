@@ -1,4 +1,5 @@
 import "../src/index.css"
+import "./styles/swagatLogoAnimation.css"
 
 
 // ALL ASSETS BELOW HERE

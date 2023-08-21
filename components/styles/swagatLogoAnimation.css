@@ -1,0 +1,191 @@
+
+
+
+/* THE SWAGAT LOGO ANIMATIONS */
+._s{
+
+
+    animation-name: _S;
+    animation-duration: 4s;
+    animation-delay: 5s;
+    animation-fill-mode: forwards;
+  
+  
+    stroke: #E50914;
+    stroke-dashoffset:29rem ;
+    stroke-dasharray:29rem ;
+    
+  }
+  
+  @keyframes _S {
+    0%{
+      stroke-dashoffset:29rem ;
+      /* fill: none; */
+      
+    }
+    100%{
+      stroke-dashoffset:0rem ;
+      /* fill: #E50914; */
+  
+    }
+    
+  }
+  
+  
+  /* ANIMATING    W */
+  ._w{
+  
+  
+    animation-name: _W;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+  
+  
+    stroke: #E50914;
+    stroke-dashoffset:46rem ;
+    stroke-dasharray:46rem ;
+    
+  }
+  
+  @keyframes _W {
+    0%{
+      stroke-dashoffset:46rem ;
+      
+      
+    }
+    100%{
+      stroke-dashoffset:0rem ;
+     
+  
+    }
+    
+  }
+  
+  
+  /* ANIMATING   A   */
+  
+  ._a{
+  
+  
+    animation-name: _A;
+    animation-duration: 4s;
+    animation-delay: 5s;
+    animation-fill-mode: forwards;
+  
+  
+    stroke: #E50914;
+    stroke-dashoffset:19rem ;
+    stroke-dasharray:19rem ;
+    
+  }
+  
+  
+  @keyframes _A {
+    0%{
+      stroke-dashoffset:19rem ;
+      
+      
+    }
+    100%{
+      stroke-dashoffset:0rem ;
+     
+  
+    }
+    
+  }
+  
+  
+  /* THIS IS FOR THE "" G "" */
+  
+  ._g{
+  
+  
+    animation-name: _G;
+    animation-duration: 4s;
+    animation-delay: 5s;
+    animation-fill-mode: forwards;
+  
+  
+    stroke: #E50914;
+    stroke-dashoffset:28rem ;
+    stroke-dasharray:28rem ;
+    
+  }
+  
+  @keyframes _G {
+    0%{
+      stroke-dashoffset:28rem ;
+      
+      
+    }
+    100%{
+      stroke-dashoffset:0rem ;
+     
+  
+    }
+    
+  }
+  
+  
+  /* THIS IS FOR THE 2ND "" A "" */
+  ._a2{
+  
+  
+    animation-name: _A2;
+    animation-duration: 4s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+  
+  
+    stroke: #E50914;
+    stroke-dashoffset:20rem ;
+    stroke-dasharray:20rem ;
+    
+  }
+  
+  @keyframes _A2 {
+    0%{
+      stroke-dashoffset:20rem ;
+      
+      
+    }
+    100%{
+      stroke-dashoffset:0rem ;
+     
+  
+    }
+    
+  }
+  
+  
+  /* THIS IF FOR THE "" T "" */
+  
+  ._t{
+  
+  
+    animation-name: _T;
+    animation-duration: 4s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+  
+  
+    stroke: #E50914;
+    stroke-dashoffset:22rem ;
+    stroke-dasharray:22rem ;
+    
+  }
+  
+  @keyframes _T {
+    0%{
+      stroke-dashoffset:22rem ;
+      
+      
+    }
+    100%{
+      stroke-dashoffset:0rem ;
+     
+  
+    }
+    
+  }
