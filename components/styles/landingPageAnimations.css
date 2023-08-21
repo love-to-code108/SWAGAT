@@ -1,0 +1,95 @@
+#HamburgerMenuAnimation{
+
+    width: 15rem;
+    height: 100svh;
+    background-color: red;
+
+    position: fixed;
+
+    top: 0rem;
+    right: -15rem;
+
+    z-index: -1;
+}
+
+#Hamburgermenu{
+    z-index: +10;
+    cursor: pointer;
+}
+
+.hamLines{
+    position: absolute;
+}
+
+.hamburgerLine1{
+
+    transition-property: all;
+    transition-duration: 1s;
+    transform-origin: center;
+
+    top: 0;
+}
+
+.hamburgerLine2{
+    transition-property: all;
+    transition-duration: 1s;
+    transform-origin: center;
+
+    top: 0.7rem;
+}
+
+
+.hamburgerLine3{
+    transition-property: all;
+    transition-duration: 1s;
+    transform-origin: center;
+
+    top: 1.4rem;
+}
+
+#hamburgerMenuIcon{
+
+    z-index: +1;
+}
+
+.hamburgerLine1Anime{
+    
+    cursor: pointer;
+    top: 70%;
+    transform: rotate(45deg);
+    
+}
+
+
+.hamburgerLine3Anime{
+    
+    cursor: pointer;
+    top: 70%;
+    transform: rotate(-45deg);
+    
+}
+
+
+
+.hamburgerLine2Anime{
+    
+    cursor: pointer;
+    opacity: 0;
+    
+}
+
+#menuWrapper{
+    position: fixed;
+    right: 1rem;
+
+    transition-property: all;
+    transition-duration: 1s;
+
+}
+
+.menuWrapperAnime{
+
+    transform: translateX(3.6rem);
+    
+
+}
