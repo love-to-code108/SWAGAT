@@ -3,7 +3,7 @@ import "./styles/swagatLogoAnimation.css"
 
 
 // ALL ASSETS BELOW HERE
-import swagatLogo from "../src/assets/svg/swagatLogo.svg"
+// import swagatLogo from "../src/assets/svg/swagatLogo.svg"
 import bottomIcon from "../src/assets/svg/white.svg"
 
 export const LandingPage = () => {

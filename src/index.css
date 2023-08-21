@@ -197,7 +197,7 @@ font-family: 'Ubuntu', sans-serif; */
 @media (max-width:425px) {
 
   .LandingAnimationSrc {
-    height: 50rem;
+    height: 100svh;
   }
 }
 
