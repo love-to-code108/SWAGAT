@@ -149,7 +149,7 @@ export const LandingPage = () => {
 
 
                 <div id="HamburgerMenuAnimation">
-                    <div className="flex flex-col text-3xl items-end ">
+                    <div className="flex flex-col text-3xl items-center ">
                         <a className="whatsapp" href="https://chat.whatsapp.com/BqCxrCjfTXM4sUS5wc4qaf" target="_blank" rel="noreferrer">Whatsapp</a>
 
 

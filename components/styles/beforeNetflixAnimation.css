@@ -1,0 +1,114 @@
+
+
+
+#beforeNetflixVideo{
+
+    width: 100%;
+    height: 100svh;
+
+    background-color: black;
+
+    position: absolute;
+
+
+}
+
+
+
+
+
+
+.whoIsWatching{
+
+    color: white;
+    font-family: "netflix";
+    font-size: 2.5rem;
+
+    margin-bottom: 2rem;
+
+    animation-name: WhoIsWatching;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+
+    transition: 2s;
+    transition: all;
+    
+}
+
+
+@keyframes WhoIsWatching {
+    from{
+        transform: translateY(-10rem);
+        opacity: 0;
+
+    }
+
+    to{
+        transform: translateY(0rem);
+        opacity: 1;
+
+    }
+}
+
+.FreshersWatching{
+
+    /* background-color: white; */
+    /* border: 2px solid white; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+
+
+    margin-bottom: 2.5rem;
+    opacity: 0;
+
+    animation-name: freshersWatching;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+    animation-duration: 2s;
+}
+
+
+@keyframes freshersWatching {
+    from{
+        transform: translateY(-2rem);
+        opacity: 0;
+    }
+    to{
+        
+        transform: translateY(0rem);
+        opacity: 1;
+    }
+    
+}
+
+.freshersWatchingLogo{
+
+
+    border: 2px solid white;
+    border-radius: 0.5rem;
+
+}
+
+.freshiSeniorF{
+
+    font-family: "squidGames";
+    font-size: 1rem;
+    /* margin-top: 1rem; */
+}
+
+
+.freshiSeniorS{
+
+    font-family: "netflix";
+    font-size: 1rem;
+    /* margin-top: 1rem; */
+}
+
+.SacredGames{
+
+    width: 13rem;
+}

@@ -48,6 +48,11 @@ font-family: 'Ubuntu', sans-serif; */
   src: url(./assets/fonts/gameOfThrones.ttf);
 }
 
+@font-face {
+  font-family: "sacredGames";
+  src: url(./assets/fonts/Paraoh.ttf);
+}
+
 .font-netflix {
 
   font-family: "netflix";
