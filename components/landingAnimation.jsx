@@ -8,7 +8,11 @@ import swagatLogo from "../src/assets/svg/swagatLogo.svg"
 import polygon from "../src/assets/svg/Polygon.svg"
 import rectangle from "../src/assets/svg/Rectangle.svg"
 import ellipse from "../src/assets/svg/Ellipse.svg"
-import sacredGames from "../src/assets/jpg/sacredGames.jpg"
+// import sacredGames from "../src/assets/jpg/sacredGames.jpg"
+import redFace from "../src/assets/png/redImage.png"
+import racoonFace from "../src/assets/png/Netflix-avatar-6.png"
+import greenFace from "../src/assets/png/Netflix-avatar-4.png"
+import angryBird from "../src/assets/png/angryBird.png"
 
 
 // IMPORTING REACT AND OTHER LIBRARIES
@@ -154,8 +158,10 @@ export const LandingAnimation = () => {
         }
 
         const ClickEvent = document.getElementById("ClickEvent")
+        const ClickEvent2 = document.getElementById("ClickEvent2")
 
-        ClickEvent.addEventListener("click", hello)
+        ClickEvent.addEventListener("click", hello);
+        ClickEvent2.addEventListener("click", hello);
 
     }, [])
 
@@ -168,7 +174,7 @@ export const LandingAnimation = () => {
 
 
             <div id="beforeNetflixVideo"
-                className="flex flex-col justify-center items-center">
+                className="flex flex-col justify-center items-center pt-[10rem]">
 
 
 
@@ -179,27 +185,44 @@ export const LandingAnimation = () => {
                 </div>
 
 
-                <p className="whoIsWatching">Who is <span>watching?</span></p>
+                <p className="whoIsWatching">Who's <span>watching?</span></p>
 
 
 
 
 
                 <div
-                    className="FreshersWatching w-[14rem] h-[14rem] ">
+                    className="FreshersWatching1 w-[14rem] h-[14rem] ">
 
 
                     <div id="ClickEvent" className=" freshersWatchingLogo flex justify-center items-center h-[14rem] w-[14rem]">
-                        <img src={polygon} alt="" />
+                        <img src={racoonFace} alt="" />
+                        {/* <img src={polygon} alt="" />
                         <img src={ellipse} alt="" />
-                        <img className=" ml-2" src={rectangle} alt="" />
+                        <img className=" ml-2" src={rectangle} alt="" /> */}
                     </div>
 
 
-                    <p className="freshiSeniorF">Freshi</p>
+                    <p className="freshiSeniorF">Fresher</p>
                 </div>
 
 
+
+
+                <div
+                    className="FreshersWatching2 w-[14rem] h-[14rem] ">
+
+
+                    <div id="ClickEvent2" className=" freshersWatchingLogo flex justify-center items-center h-[14rem] w-[14rem]">
+                        <img src={angryBird} alt="" />
+                        {/* <img src={polygon} alt="" />
+                        <img src={ellipse} alt="" />
+                        <img className=" ml-2" src={rectangle} alt="" /> */}
+                    </div>
+
+
+                    <p className="freshiSeniorF">Senior</p>
+                </div>
 
                 {/* <div
                     className="FreshersWatching w-[14rem] h-[14rem] ">

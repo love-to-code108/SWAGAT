@@ -11,6 +11,7 @@
     position: absolute;
 
 
+
 }
 
 #swagatLogo{
@@ -40,7 +41,9 @@
     font-family: "netflix";
     font-size: 2.5rem;
 
-    margin-bottom: 2rem;
+    /* margin-bottom: 4rem; */
+    position: absolute;
+    top: 4rem;
 
     animation-name: WhoIsWatching;
     animation-duration: 2s;
@@ -49,12 +52,14 @@
     transition: 2s;
     transition: all;
     
+
+
 }
 
 
 @keyframes WhoIsWatching {
     from{
-        transform: translateY(-10rem);
+        transform: translateY(-2rem);
         opacity: 0;
 
     }
@@ -66,7 +71,7 @@
     }
 }
 
-.FreshersWatching{
+.FreshersWatching1{
 
     /* background-color: white; */
     /* border: 2px solid white; */
@@ -78,7 +83,29 @@
     color: white;
 
 
-    margin-bottom: 2.5rem;
+    padding-bottom: 6rem;
+    opacity: 0;
+
+    animation-name: freshersWatching;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+    animation-duration: 2s;
+}
+
+
+.FreshersWatching2{
+
+    /* background-color: white; */
+    /* border: 2px solid white; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+
+
+    padding-top: 2rem;
     opacity: 0;
 
     animation-name: freshersWatching;
@@ -104,7 +131,7 @@
 .freshersWatchingLogo{
 
 
-    border: 4px solid white;
+    /* border: 4px solid white; */
     border-radius: 0.5rem;
 
 }
@@ -112,7 +139,7 @@
 .freshiSeniorF{
 
     font-family: "squidGames";
-    font-size: 1rem;
+    font-size: 1.9rem;
     /* margin-top: 1rem; */
 }
 
