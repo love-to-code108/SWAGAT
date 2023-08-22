@@ -180,8 +180,9 @@ export const LandingAnimation = () => {
 
 
                 <div>
-                    <img id="swagatLogo" className="w-16 absolute 
-                    top-6 left-4" src={swagatLogo} alt="" />
+                    <img id="swagatLogo" className="w-24 absolute 
+                    top-6 left-[37.1%]
+                    sm:left-6" src={swagatLogo} alt="" />
                 </div>
 
 

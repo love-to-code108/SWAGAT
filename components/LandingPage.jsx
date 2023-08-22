@@ -153,7 +153,7 @@ export const LandingPage = () => {
                         <a className="whatsapp" href="https://chat.whatsapp.com/BqCxrCjfTXM4sUS5wc4qaf" target="_blank" rel="noreferrer">Whatsapp</a>
 
 
-                        <a className="linkedin" href="https://www.linkedin.com/in/love-to-code108/" target="_blank" rel="noreferrer">Linkedin</a>
+                        <a className="linkedin" href="https://www.linkedin.com/company/freshersuemj/" target="_blank" rel="noreferrer">Linkedin</a>
 
 
                         <a className="instagram" href="https://www.instagram.com/freshers.uemj/" target="_blank" rel="noreferrer">Instagram</a>
