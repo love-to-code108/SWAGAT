@@ -173,10 +173,10 @@ export const LandingAnimation = () => {
 
 
 
-                {/* <div>
-                    <img className="w-16 absolute 
-                    top-4 left-[42.8%]" src={swagatLogo} alt="" />
-                </div> */}
+                <div>
+                    <img id="swagatLogo" className="w-16 absolute 
+                    top-6 left-4" src={swagatLogo} alt="" />
+                </div>
 
 
                 <p className="whoIsWatching">Who is watching?</p>
