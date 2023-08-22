@@ -22,7 +22,7 @@ font-family: 'Ubuntu', sans-serif; */
 }
 
 
-@font-face {
+/* @font-face {
   font-family: "wednesday";
   src: url(./assets/fonts/Wednesday.ttf);
 }
@@ -51,7 +51,7 @@ font-family: 'Ubuntu', sans-serif; */
 @font-face {
   font-family: "sacredGames";
   src: url(./assets/fonts/Paraoh.ttf);
-}
+} */
 
 .font-netflix {
 

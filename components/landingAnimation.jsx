@@ -179,7 +179,7 @@ export const LandingAnimation = () => {
                 </div>
 
 
-                <p className="whoIsWatching">Who is watching?</p>
+                <p className="whoIsWatching">Who is <span>watching?</span></p>
 
 
 
