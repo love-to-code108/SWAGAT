@@ -1,8 +1,14 @@
 import "../src/index.css"
+import "./styles/beforeNetflixAnimation.css"
 
 // IMPORTING ASSETS BELOW
 import landingVideo from "../src/assets/videos/Netflix New Logo Animation 2019.mp4"
 // import landingVideo2 from "../src/assets/videos/swagat.mp4"
+import swagatLogo from "../src/assets/svg/swagatLogo.svg"
+import polygon from "../src/assets/svg/Polygon.svg"
+import rectangle from "../src/assets/svg/Rectangle.svg"
+import ellipse from "../src/assets/svg/Ellipse.svg"
+import sacredGames from "../src/assets/jpg/sacredGames.jpg"
 
 
 // IMPORTING REACT AND OTHER LIBRARIES
@@ -30,17 +36,17 @@ export const LandingAnimation = () => {
 
 
         gsap.to("#LandingAnimation", {
-            
+
             duration: 3,
             opacity: 0,
         });
-        
-        
+
+
 
         setTimeout(() => {
             setlandingAnimationState(false);
 
-        },3000);
+        }, 3000);
 
 
         // GETTING THE ELEMENTS USING THEIR CLASS NAME
@@ -67,44 +73,44 @@ export const LandingAnimation = () => {
         _t.style.animationName = "_T";
 
 
-        gsap.fromTo("#NovatoFiesta",{
-            y:10,
-            opacity:0,
+        gsap.fromTo("#NovatoFiesta", {
+            y: 10,
+            opacity: 0,
 
-        },{
-            y:0,
-            duration:2,
-            delay:2,
-            opacity:1,
-            ease:"power4"
-        })
-        
-        
-        gsap.fromTo("#twoK23",{
-            y:-10,
-            opacity:0,
-
-        },{
-            y:0,
-            duration:2,
-            delay:2,
-            opacity:1,
-            ease:"power4"
+        }, {
+            y: 0,
+            duration: 2,
+            delay: 2,
+            opacity: 1,
+            ease: "power4"
         })
 
 
-        gsap.fromTo("#menuWrapper",{
-            
-            opacity:0,
-        },{
+        gsap.fromTo("#twoK23", {
+            y: -10,
+            opacity: 0,
 
-            x:0,
-            duration:2,
-            delay:2,
-            opacity:1,
-            ease:"power4"
+        }, {
+            y: 0,
+            duration: 2,
+            delay: 2,
+            opacity: 1,
+            ease: "power4"
         })
-        
+
+
+        gsap.fromTo("#menuWrapper", {
+
+            opacity: 0,
+        }, {
+
+            x: 0,
+            duration: 2,
+            delay: 2,
+            opacity: 1,
+            ease: "power4"
+        })
+
 
 
         // _s.style.animationName = "ColorChanger";
@@ -129,12 +135,12 @@ export const LandingAnimation = () => {
             if (counter == 0) {
                 counter++;
 
-                document.getElementById("startingText").style.display="none"
-                
-                document.getElementById("startingText2").style.display="none"
+                const beforeNetflixVideo = document.getElementById("beforeNetflixVideo");
+
+                beforeNetflixVideo.style.opacity = 0;
 
 
-                
+                // PLAYING THE STARTING VIDEO
                 document.getElementById("landingAnimationVideo").play();
 
 
@@ -147,9 +153,9 @@ export const LandingAnimation = () => {
 
         }
 
+        const ClickEvent = document.getElementById("ClickEvent")
 
-
-        window.addEventListener("click", hello)
+        ClickEvent.addEventListener("click", hello)
 
     }, [])
 
@@ -158,10 +164,62 @@ export const LandingAnimation = () => {
     return (
         <div id="LandingAnimation" className=" flex justify-center items-center">
 
-                <p id="startingText" 
-                className="text-white t ">DO YOU KNOW WHAT COMES ONLY ONCE IN ONE LIFETIME?</p>
 
-                <p id="startingText2" className="t ">TAP TO START</p>
+
+
+            <div id="beforeNetflixVideo"
+                className="flex flex-col justify-center items-center">
+
+
+
+
+                <div>
+                    <img id="swagatLogo" className="w-16 absolute 
+                    top-6 left-4" src={swagatLogo} alt="" />
+                </div>
+
+
+                <p className="whoIsWatching">Who is <span>watching?</span></p>
+
+
+
+
+
+                <div
+                    className="FreshersWatching w-[14rem] h-[14rem] ">
+
+
+                    <div id="ClickEvent" className=" freshersWatchingLogo flex justify-center items-center h-[14rem] w-[14rem]">
+                        <img src={polygon} alt="" />
+                        <img src={ellipse} alt="" />
+                        <img className=" ml-2" src={rectangle} alt="" />
+                    </div>
+
+
+                    <p className="freshiSeniorF">Freshi</p>
+                </div>
+
+
+
+                {/* <div
+                    className="FreshersWatching w-[14rem] h-[14rem] ">
+
+
+                    <div className=" freshersWatchingLogo flex justify-center items-center h-[14rem] w-[14rem]">
+                        <img className="SacredGames" src={sacredGames} alt="" />
+                    </div>
+
+
+                    <p className="freshiSeniorS">Senior</p>
+                </div> */}
+
+
+
+
+
+            </div>
+
+
 
 
 
