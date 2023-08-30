@@ -1,4 +1,4 @@
-#HamburgerMenuAnimation{
+#HamburgerMenuAnimation {
 
     width: 15rem;
     height: 100svh;
@@ -16,18 +16,18 @@
     align-items: center;
 }
 
-#Hamburgermenu{
+#Hamburgermenu {
     z-index: +10;
     cursor: pointer;
 }
 
-.hamLines{
+.hamLines {
     position: absolute;
 
     height: 0.2rem;
 }
 
-.hamburgerLine1{
+.hamburgerLine1 {
 
     transition-property: all;
     transition-duration: 1s;
@@ -37,7 +37,7 @@
     right: 0;
 }
 
-.hamburgerLine2{
+.hamburgerLine2 {
     transition-property: all;
     transition-duration: 1s;
     transform-origin: center;
@@ -47,7 +47,7 @@
 }
 
 
-.hamburgerLine3{
+.hamburgerLine3 {
     transition-property: all;
     transition-duration: 1s;
     transform-origin: center;
@@ -56,7 +56,7 @@
     right: 0;
 }
 
-#hamburgerMenuIcon{
+#hamburgerMenuIcon {
 
     z-index: +1;
     display: flex;
@@ -70,33 +70,33 @@
     right: 2.2rem;
 }
 
-.hamburgerLine1Anime{
-    
+.hamburgerLine1Anime {
+
     cursor: pointer;
     top: 70%;
     transform: rotate(45deg);
-    
+
 }
 
 
-.hamburgerLine3Anime{
-    
+.hamburgerLine3Anime {
+
     cursor: pointer;
     top: 70%;
     transform: rotate(-45deg);
-    
+
 }
 
 
 
-.hamburgerLine2Anime{
-    
+.hamburgerLine2Anime {
+
     cursor: pointer;
     opacity: 0;
-    
+
 }
 
-#menuWrapper{
+#menuWrapper {
     position: fixed;
     right: 1rem;
 
@@ -105,19 +105,19 @@
 
 }
 
-#menuWriting{
+#menuWriting {
     transition: all;
     transition-duration: 1s;
 }
 
-.menuWrapperAnime1{
+.menuWrapperAnime1 {
 
     transform: translateX(3.6rem);
-    
+
 
 }
 
-.menuWrapperAnime2{
+.menuWrapperAnime2 {
 
     transform: translateX(2.6rem);
 }
@@ -125,7 +125,7 @@
 /* ADDING THE LINKS */
 
 /* .menuWrapper{} */
-.whatsapp{
+.whatsapp {
 
     /* background-color: white; */
     /* font-family: "wednesday"; */
@@ -138,7 +138,7 @@
     margin-bottom: 0.5rem;
 }
 
-.linkedin{
+.linkedin {
 
     font-family: 'Bebas Neue', sans-serif;
     /* font-family: "lucifer"; */
@@ -151,7 +151,7 @@
     margin-bottom: 0.5rem;
 }
 
-.instagram{
+.instagram {
     font-family: 'Bebas Neue', sans-serif;
     /* font-family: "breakingBad"; */
     /* font-family: "lucifer"; */
@@ -160,10 +160,10 @@
     font-weight: 500;
 
     margin-bottom: 2.5rem;
-    
+
 }
 
-.Register{
+.Register {
 
     font-family: 'Bebas Neue', sans-serif;
     /* font-family: "squidGames"; */
@@ -179,3 +179,15 @@
 
     /* margin-bottom: 1.5rem; */
 }
+
+
+.SWAGATLOGO {
+
+    width: auto;
+    height: 6rem;
+
+}
+
+/* @media (min-width:) {
+    
+} */
