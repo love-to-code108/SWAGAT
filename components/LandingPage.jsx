@@ -136,7 +136,8 @@ export const LandingPage = () => {
 
 
                     <p id="menuWriting" className="
-                text-white font-netflix2 text-xl " >
+                text-white font-netflix2 text-xl 
+                lg:text-2xl" >
                         MENU
                     </p>
 
@@ -175,6 +176,10 @@ export const LandingPage = () => {
                 <p className="novatoFiestaBox
                 font-netflix2 text-white border-2 text-2xl px-2 pt-1
                 mb-4
+                sm:text-3xl
+                md:text-4xl
+                lg:text-5xl
+                xl:text-6xl
                 ">NOVATO FIESTA'S</p>
             </div>
 
@@ -203,7 +208,12 @@ export const LandingPage = () => {
              bg-red-600 flex items-center justify-center">
 
                 <p  className="TwoK23
-                font-netflix2 text-white text-3xl px-1 pt-1">2K23</p>
+                font-netflix2 text-white text-3xl px-1 pt-1
+                sm:text-3xl
+                md:text-4xl
+                lg:text-5xl
+                xl:text-6xl xl:px-2
+                ">2K23</p>
 
             </div>
 
