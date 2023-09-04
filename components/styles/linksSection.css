@@ -1,0 +1,31 @@
+
+/* THIS IS THE ROOT OR THE SUPER DIV */
+#LinksSection{
+
+    height: 100vh;
+    width: 100%;
+
+    max-width: 1920px;
+
+    /* background-color: white; */
+    background-color: black;
+    position: absolute;
+
+}
+
+
+.swagatNavBar{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 4rem;
+
+    max-width: 1920px;
+
+    background-color: black;
+    position: sticky;
+    top: 0rem;
+}
