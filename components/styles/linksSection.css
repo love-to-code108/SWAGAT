@@ -96,6 +96,14 @@
     font-weight: 700;
 }
 
+.groupLinksSectionWhatsapp2{
+
+    
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-top: 1rem;
+}
+
 
 .joinLinksSection{
 
@@ -108,6 +116,17 @@
 
 }
 
+.joinLinksSection2{
+
+    position: absolute;
+    font-size: 1.5rem;
+
+    top: -0.7rem;
+    left: 0rem;
+    
+
+}
+
 .groupLinksSection{
     
     position: absolute;
@@ -115,4 +134,84 @@
 
     bottom: -1.4rem;
     left: 0rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+.scrollableElementsLinksSection2{
+
+    width: 18rem;
+    height: 10rem;
+
+    position: relative;
+
+    background-color: #2F8D46;
+    border: 2px solid #2F8D46;
+
+    min-width: 18rem;
+    border-radius: 8px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #0F2B3C;
+}
+
+.theWritingSectionInTheCards2{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.GeeksForGeeks{
+
+  position: relative;
+  top: 1.6rem;
+}
+
+
+
+
+
+/* for more info section  */
+
+.theWritingSectionInTheCards3{
+
+    width: 18rem;
+    height: 10rem;
+
+    position: relative;
+
+    background-color: white;
+    border: 2px solid white;
+
+    min-width: 18rem;
+    border-radius: 8px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* color: #0F2B3C; */
+
+}
+
+.smallSwagatSLogo3{
+
+    position: absolute;
+    top: 0.9rem;
+    left: 1rem;
+
+    z-index: +10;
 }

@@ -33,7 +33,7 @@ font-family: 'Ubuntu', sans-serif; */
   src: url(./assets/fonts/luciferFont.ttf);
 }
 
-@font-face {
+/* @font-face {
   font-family: "breakingBad";
   src: url(./assets/fonts/breakingBad.otf);
 }
@@ -51,7 +51,7 @@ font-family: 'Ubuntu', sans-serif; */
 @font-face {
   font-family: "sacredGames";
   src: url(./assets/fonts/Paraoh.ttf);
-}
+} */
 
 .font-netflix {
 
@@ -66,6 +66,19 @@ font-family: 'Ubuntu', sans-serif; */
 
   font-family: 'wednesday';
 }
+
+
+.font-lucifer{
+
+  font-family: 'lucifer';
+
+}
+
+.font-poppins{
+
+  font-family: "Poppins";
+}
+
 
 ::selection {
   color: white;
