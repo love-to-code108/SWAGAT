@@ -22,7 +22,7 @@ font-family: 'Ubuntu', sans-serif; */
 }
 
 
-/* @font-face {
+@font-face {
   font-family: "wednesday";
   src: url(./assets/fonts/Wednesday.ttf);
 }
@@ -33,7 +33,7 @@ font-family: 'Ubuntu', sans-serif; */
   src: url(./assets/fonts/luciferFont.ttf);
 }
 
-@font-face {
+/* @font-face {
   font-family: "breakingBad";
   src: url(./assets/fonts/breakingBad.otf);
 }
@@ -62,10 +62,30 @@ font-family: 'Ubuntu', sans-serif; */
   font-family: 'Bebas Neue', sans-serif;
 }
 
+.font-wednesday{
+
+  font-family: 'wednesday';
+}
+
+
+.font-lucifer{
+
+  font-family: 'lucifer';
+
+}
+
+.font-poppins{
+
+  font-family: "Poppins";
+}
+
+
 ::selection {
   color: white;
   background: red;
 }
+
+
 
 
 
@@ -282,6 +302,8 @@ to{
   animation-duration: 1.5s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
+
+
 }
 
 @keyframes bottomLogoAnimation {
