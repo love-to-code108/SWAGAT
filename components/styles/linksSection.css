@@ -11,6 +11,8 @@
     background-color: black;
     position: absolute;
 
+    overflow: hidden;
+
 }
 
 
@@ -28,4 +30,89 @@
     background-color: black;
     position: sticky;
     top: 0rem;
+}
+
+
+#WrapperForScrollableElements{
+
+    width: 100%;
+    height: 10rem;
+
+    /* background-color: white; */
+    background-color: black;
+
+
+    display: flex;
+
+    overflow-x: auto;
+    overflow-y: hidden;
+
+
+
+    
+}
+
+#WrapperForScrollableElements::-webkit-scrollbar{
+    display: none;
+}
+
+.scrollableElementsLinksSection{
+
+    width: 18rem;
+    height: 10rem;
+
+    position: relative;
+
+    background-color: rgba(28, 28, 28,0.2);
+    border: 2px solid white;
+
+    min-width: 18rem;
+    border-radius: 8px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+}
+
+.smallSwagatSLogo{
+
+    position: absolute;
+    top: 0.9rem;
+    left: 1rem;
+}
+
+.theWritingSectionInTheCards{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.groupLinksSectionWhatsapp{
+
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+
+.joinLinksSection{
+
+    position: absolute;
+    font-size: 1.5rem;
+
+    top: -1.3rem;
+    right: 0rem;
+    
+
+}
+
+.groupLinksSection{
+    
+    position: absolute;
+    font-size: 1.5rem;
+
+    bottom: -1.4rem;
+    left: 0rem;
 }
