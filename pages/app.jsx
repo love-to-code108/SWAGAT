@@ -3,6 +3,7 @@ import { LandingPage } from "../components/LandingPage";
 // import { CommingSoon } from "../components/commingVerySoon";
 import { LandingAnimation } from "../components/landingAnimation";
 import { LinksSection } from "../components/linkSection";
+import { Navbaar } from "../components/navbar";
 
 
 // IMPORTING CSS BELOW
@@ -27,6 +28,7 @@ export const SinglePageApp = () => {
             {/* <CommingSoon/> */}
             {landingAnimationState && <LandingAnimation />}
             <LandingPage />
+            <Navbaar/>
             <LinksSection/>
             </AppContext.Provider >
         </div>

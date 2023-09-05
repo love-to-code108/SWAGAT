@@ -92,6 +92,8 @@ font-family: 'Ubuntu', sans-serif; */
 
 
 
+
+
 /* COMING SOON PART THAT WILL BE COMMENTED OUT VERY SOON */
 #ComingSoon {
 
@@ -300,6 +302,8 @@ to{
   animation-duration: 1.5s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
+
+
 }
 
 @keyframes bottomLogoAnimation {
