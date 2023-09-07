@@ -26,8 +26,36 @@ export const LinksSection = () => {
 
 
 
-                {/* JOIN WHATSAPP SECTION  */}
+
+
+                {/* JOIN INSTAGRAM SECTION*/}
                 <div className="scrollableElementsLinksSection mr-2"
+                    onClick={
+                        () => {
+                            window.open("https://www.instagram.com/freshers.uemj/",
+                                "_blank")
+                        }
+                    }>
+
+
+                    <div className="smallSwagatSLogo"><img src={SofSwagat} alt="" /></div>
+
+
+                    <div className="theWritingSectionInTheCards relative">
+                        <div className="font-netflix2 joinLinksSection2">FOLLOW US ON</div>
+                        <div className="font-lucifer
+                        groupLinksSectionWhatsapp2" >INSTAGRAM</div>
+
+                    </div>
+
+
+                </div>
+
+
+
+
+                {/* JOIN WHATSAPP SECTION  */}
+                <div className="scrollableElementsLinksSection mr-16"
                     onClick={
                         () => {
                             window.open("https://chat.whatsapp.com/BqCxrCjfTXM4sUS5wc4qaf",
@@ -51,28 +79,7 @@ export const LinksSection = () => {
 
 
 
-                {/* JOIN INSTAGRAM SECTION*/}
-                <div className="scrollableElementsLinksSection mr-16"
-                onClick={
-                    () => {
-                        window.open("https://www.instagram.com/freshers.uemj/",
-                        "_blank")
-                    }
-                }>
-
-
-                    <div className="smallSwagatSLogo"><img src={SofSwagat} alt="" /></div>
-
-
-                    <div className="theWritingSectionInTheCards relative">
-                        <div className="font-netflix2 joinLinksSection2">FOLLOW US ON</div>
-                        <div className="font-lucifer
-                        groupLinksSectionWhatsapp2" >INSTAGRAM</div>
-
-                    </div>
-
-
-                </div>
+                
 
 
 
@@ -81,6 +88,73 @@ export const LinksSection = () => {
 
                 </div> */}
 
+            </div>
+
+
+
+
+
+
+
+
+
+            {/* FOR NOW THE DOWNLOAD PDF SECTION GOES HERE */}
+            <div className=" px-8 py-8">
+                <p className="font-netflix text-3xl text-white">For More Info</p>
+            </div>
+
+
+            {/* THE HORIZONTALLY SCROLLABLE LINKS */}
+
+            <div id="WrapperForScrollableElements" className=" ml-8">
+
+
+                {/* PARTICIPATE SECTION  */}
+                <div className="scrollableElementsLinksSection2 mr-2"
+                    onClick={
+                        () => {
+                            window.open("https://forms.gle/jq7pNV9TDppB9Y8HA",
+                                "_blank")
+                        }
+                    }>
+
+
+                    <div className="smallSwagatSLogo3"><img src={SofSwagat} alt="" /></div>
+
+
+                    <div className="theWritingSectionInTheCards4 relative">
+
+                        <p className="font-netflix2 text-4xl text-[#E50914]  drop-shadow-lg mt-4">PERFORM</p>
+                        <p className="font-netflix2 text-2xl text-white relative bottom-2">ON 22ND SEPT</p>
+                    </div>
+
+
+                </div>
+
+
+
+                {/* DOWNLOAD PDF SECTION  */}
+                <div className="scrollableElementsLinksSection2 mr-12"
+                    onClick={
+                        () => {
+                            window.open("../src/assets/pdf/download.pdf",
+                                "_blank")
+                        }
+                    }>
+
+
+                    <div className="smallSwagatSLogo3"><img src={SofSwagat} alt="" /></div>
+
+
+                    <div className="theWritingSectionInTheCards3 relative">
+                        <p className="font-netflix2 text-4xl text-white ">DOWNLOAD </p>
+                         
+                        <br />
+                        <p className="font-netflix2 text-4xl text-[#E50914] ml-1"> PDF</p>
+                    </div>
+
+
+                </div>
             </div>
 
 
@@ -105,12 +179,12 @@ export const LinksSection = () => {
 
                 {/* GEEKS FOR GEEKS SECTION  */}
                 <div className="scrollableElementsLinksSection2 mr-2"
-                onClick={
-                    () => {
-                        window.open("https://www.geeksforgeeks.org/",
-                            "_blank")
-                    }
-                }>
+                    onClick={
+                        () => {
+                            window.open("https://www.geeksforgeeks.org/",
+                                "_blank")
+                        }
+                    }>
 
 
                     <div className="smallSwagatSLogo"><img src={SofSwagat} alt="" /></div>
@@ -129,62 +203,7 @@ export const LinksSection = () => {
 
 
 
-            {/* FOR NOW THE SPONSOR SECTION GOES HERE */}
-            <div className=" px-8 py-8">
-                <p className="font-netflix text-3xl text-white">For More Info</p>
-            </div>
 
-
-            {/* THE HORIZONTALLY SCROLLABLE LINKS */}
-
-            <div id="WrapperForScrollableElements" className=" ml-8">
-
-
-                {/* PARTICIPATE SECTION  */}
-                <div className="scrollableElementsLinksSection2 mr-2"
-                onClick={
-                    () => {
-                        window.open("https://forms.gle/jq7pNV9TDppB9Y8HA",
-                            "_blank")
-                    }
-                }>
-
-
-                    <div className="smallSwagatSLogo3"><img src={SofSwagat} alt="" /></div>
-
-
-                    <div className="theWritingSectionInTheCards4 relative">
-                        
-                        <p className="font-netflix2 text-4xl text-[#E50914]  drop-shadow-lg mt-4">PARTICIPATE</p>
-                        <p className="font-netflix2 text-2xl text-white  customShadow relative bottom-1">In Freshers</p>
-                    </div>
-
-
-                </div>
-
-
-
-                {/* DOWNLOAD PDF SECTION  */}
-                <div className="scrollableElementsLinksSection2 mr-12"
-                onClick={
-                    () => {
-                        window.open("../src/assets/pdf/IMPORTANT FRESHERS ANNOUNCEMENT(OUTFIT IDEAS).pdf",
-                            "_blank")
-                    }
-                }>
-
-
-                    <div className="smallSwagatSLogo3"><img src={SofSwagat} alt="" /></div>
-
-
-                    <div className="theWritingSectionInTheCards3 relative">
-                        <p className="font-netflix2 text-4xl text-white customShadow">DOWNLOAD </p>
-                        <p className="font-netflix2 text-4xl text-[#FF0000] drop-shadow-lg ml-1"> PDF</p>
-                    </div>
-
-
-                </div>
-            </div>
 
 
 
