@@ -16,6 +16,8 @@
 }
 
 
+
+
 .swagatNavBar{
 
     display: flex;
@@ -195,7 +197,7 @@
 
     position: relative;
 
-    background-color: white;
+    background-color: black;
     border: 2px solid white;
 
     min-width: 15rem;
@@ -228,7 +230,7 @@
 
     position: relative;
 
-    background-color: white;
+    background-color: black;
     border: 2px solid white;
 
     min-width: 15rem;
