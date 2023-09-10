@@ -218,7 +218,7 @@ export const LinksSection = () => {
                     <div className="theWritingSectionInTheCards relative">
                         <div className="font-netflix2 text-3xl">
                             <p className="relative top-2">New <span className="text-[#e00813] text-4xl">SPONSORS</span> </p>
-                            <p ><span className="text-[#e00813] text-4xl">COMMING</span> SOON</p>
+                            <p ><span className="text-[#e00813] text-4xl">COMING</span> SOON</p>
                         </div>
                     </div>
 
