@@ -9,7 +9,7 @@ import swagatLogo from "../src/assets/svg/swagatLogo.svg"
 // import rectangle from "../src/assets/svg/Rectangle.svg"
 // import ellipse from "../src/assets/svg/Ellipse.svg"
 // import sacredGames from "../src/assets/jpg/sacredGames.jpg"
-// import redFace from "../src/assets/png/redImage.png"
+import redFace from "../src/assets/png/redImage.png"
 import racoonFace from "../src/assets/png/Netflix-avatar-6.png"
 // import greenFace from "../src/assets/png/Netflix-avatar-4.png"
 import angryBird from "../src/assets/png/angryBird.png"
@@ -204,7 +204,7 @@ export const LandingAnimation = () => {
                     </div>
 
 
-                    <p className="freshiSeniorF">Fresher</p>
+                    <p className="freshiSeniorF font-netflix">Fresher</p>
                 </div>
 
 
@@ -215,14 +215,14 @@ export const LandingAnimation = () => {
 
 
                     <div id="ClickEvent2" className=" freshersWatchingLogo flex justify-center items-center h-[14rem] w-[14rem]">
-                        <img src={angryBird} alt="" />
+                        <img src={redFace} alt="" />
                         {/* <img src={polygon} alt="" />
                         <img src={ellipse} alt="" />
                         <img className=" ml-2" src={rectangle} alt="" /> */}
                     </div>
 
 
-                    <p className="freshiSeniorF">Senior</p>
+                    <p className="freshiSeniorF font-netflix">Anonymous</p>
                 </div>
 
                 {/* <div

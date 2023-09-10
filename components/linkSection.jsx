@@ -198,6 +198,32 @@ export const LinksSection = () => {
 
 
                 </div>
+
+
+
+
+                {/* MORE SPONSORS COMMING SOON */}
+                <div className="scrollableElementsLinksSection mr-16"
+                    onClick={
+                        () => {
+                            window.open("https://chat.whatsapp.com/BqCxrCjfTXM4sUS5wc4qaf",
+                                "_blank")
+                        }
+                    }>
+
+
+                    <div className="smallSwagatSLogo"><img src={SofSwagat} alt="" /></div>
+
+
+                    <div className="theWritingSectionInTheCards relative">
+                        <div className="font-netflix2 text-3xl">
+                            <p className="relative top-2">New <span className="text-[#e00813] text-4xl">SPONSORS</span> </p>
+                            <p ><span className="text-[#e00813] text-4xl">COMMING</span> SOON</p>
+                        </div>
+                    </div>
+
+
+                </div>
             </div>
 
 
