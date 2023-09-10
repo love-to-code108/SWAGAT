@@ -20,17 +20,23 @@ export const SinglePageApp = () => {
 
     // THE COMPONETS STATES ARE BEING CONTROLLED HERE
     const [landingAnimationState, setlandingAnimationState] = useState(true);
+    const [heroSection, setheroSection] = useState(false);
 
 
     return (
         <div>
             <AppContext.Provider value={{ setlandingAnimationState }} >
-            {/* <CommingSoon/> */}
-            {landingAnimationState && <LandingAnimation />}
-            <LandingPage />
-            <Navbaar/>
-            <LinksSection/>
+                {/* <CommingSoon/> */}
+                {landingAnimationState && <LandingAnimation />}
+
+
+                {heroSection && <LandingPage />}
+                {heroSection && <Navbaar />}
+                {heroSection && <LinksSection />}
+
             </AppContext.Provider >
-        </div>
+
+
+        </div >
     );
 }

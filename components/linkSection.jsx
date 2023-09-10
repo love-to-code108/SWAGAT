@@ -79,7 +79,7 @@ export const LinksSection = () => {
 
 
 
-                
+
 
 
 
@@ -110,7 +110,7 @@ export const LinksSection = () => {
 
 
                 {/* PARTICIPATE SECTION  */}
-                <div className="scrollableElementsLinksSection2 mr-2"
+                <div className="scrollableElementsLinksSection2 mr-2 cursor-pointer"
                     onClick={
                         () => {
                             window.open("https://forms.gle/jq7pNV9TDppB9Y8HA",
@@ -134,10 +134,10 @@ export const LinksSection = () => {
 
 
                 {/* DOWNLOAD PDF SECTION  */}
-                <div className="scrollableElementsLinksSection2 mr-12"
+                <div className="scrollableElementsLinksSection2 mr-12 cursor-pointer"
                     onClick={
                         () => {
-                            window.open("../src/assets/pdf/download.pdf",
+                            window.open("https://drive.google.com/file/d/12zqF5QZGGrE5PIQumDvwJVS7TgZhCGJP/view?usp=sharing",
                                 "_blank")
                         }
                     }>
@@ -147,10 +147,11 @@ export const LinksSection = () => {
 
 
                     <div className="theWritingSectionInTheCards3 relative">
-                        <p className="font-netflix2 text-4xl text-white ">DOWNLOAD </p>
-                         
-                        <br />
-                        <p className="font-netflix2 text-4xl text-[#E50914] ml-1"> PDF</p>
+                        <p className="font-netflix2 text-4xl text-white ">OUTFIT </p>
+
+
+                        <p className="font-netflix2 text-4xl text-[#E50914] ml-2"> INSPO</p>
+
                     </div>
 
 
