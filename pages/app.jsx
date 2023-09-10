@@ -4,6 +4,7 @@ import { LandingPage } from "../components/LandingPage";
 import { LandingAnimation } from "../components/landingAnimation";
 import { LinksSection } from "../components/linkSection";
 import { Navbaar } from "../components/navbar";
+import { TheTicketSection } from "../components/theTicketSection";
 
 
 // IMPORTING CSS BELOW
@@ -20,7 +21,7 @@ export const SinglePageApp = () => {
 
     // THE COMPONETS STATES ARE BEING CONTROLLED HERE
     const [landingAnimationState, setlandingAnimationState] = useState(true);
-    const [heroSection, setheroSection] = useState(false);
+    
 
 
     return (
@@ -30,9 +31,10 @@ export const SinglePageApp = () => {
                 {landingAnimationState && <LandingAnimation />}
 
 
-                {heroSection && <LandingPage />}
-                {heroSection && <Navbaar />}
-                {heroSection && <LinksSection />}
+                 <LandingPage />
+                 <Navbaar />
+                 <LinksSection />
+                 <TheTicketSection/>
 
             </AppContext.Provider >
 
