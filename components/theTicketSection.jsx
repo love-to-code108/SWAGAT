@@ -1,10 +1,9 @@
 
 
 import "../src/index.css"
-import "./styles/linksSection.css"
 import "./styles/theTicketSection.css"
 
-import {ticket} from "../src/assets/png/invit.png"
+import ticket from "../src/assets/jpg/invite.jpg"
 
 
 
@@ -12,11 +11,11 @@ import {ticket} from "../src/assets/png/invit.png"
 export const TheTicketSection = () => {
 
 
-    return(
+    return (
         <div id="TheTicketSectionDiv">
-                <div>
-                    <img src={ticket} alt="" />
-                </div>
+            <div className="ticketImageTrim">
+                <img className=" " src={ticket} alt="" />
+            </div>
         </div>
     );
 }

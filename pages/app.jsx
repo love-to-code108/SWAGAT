@@ -34,10 +34,10 @@ export const SinglePageApp = () => {
                  <LandingPage />
                  <Navbaar />
                  <LinksSection />
-                 <TheTicketSection/>
 
             </AppContext.Provider >
 
+                 <TheTicketSection />
 
         </div >
     );
