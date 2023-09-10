@@ -22,7 +22,7 @@ export const SinglePageApp = () => {
 
     // THE COMPONETS STATES ARE BEING CONTROLLED HERE
     const [landingAnimationState, setlandingAnimationState] = useState(true);
-    
+
 
 
     return (
@@ -32,14 +32,14 @@ export const SinglePageApp = () => {
                 {landingAnimationState && <LandingAnimation />}
 
 
-                 <LandingPage />
-                 <Navbaar />
-                 <LinksSection />
+                <LandingPage />
+                <Navbaar />
+                <LinksSection />
 
             </AppContext.Provider >
 
-                 <TheTicketSection />
-                 <WebsiteUnderDevelopment/>
+            <TheTicketSection />
+            <WebsiteUnderDevelopment />
 
         </div >
     );
