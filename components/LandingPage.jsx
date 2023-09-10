@@ -151,16 +151,17 @@ export const LandingPage = () => {
 
                 <div id="HamburgerMenuAnimation">
                     <div className="flex flex-col text-3xl items-center ">
-                        <a className="whatsapp" href="https://chat.whatsapp.com/BqCxrCjfTXM4sUS5wc4qaf" target="_blank" rel="noreferrer">Whatsapp</a>
-
-                        <a className="linkedin" href="https://www.linkedin.com/company/freshersuemj/" target="_blank" rel="noreferrer">Linkedin</a>
-
 
 
                         <a className="instagram" href="https://www.instagram.com/freshers.uemj/" target="_blank" rel="noreferrer">Instagram</a>
 
 
-                        <a className="Register" href="https://forms.gle/jq7pNV9TDppB9Y8HA" target="_blank" rel="noreferrer">Perform??</a>
+                        <a className="whatsapp" href="https://chat.whatsapp.com/BqCxrCjfTXM4sUS5wc4qaf" target="_blank" rel="noreferrer">Whatsapp</a>
+
+                        <a className="linkedin" href="https://www.linkedin.com/company/freshersuemj/" target="_blank" rel="noreferrer">Linkedin</a>
+
+
+                        <a className="Register" href="https://forms.gle/jq7pNV9TDppB9Y8HA" target="_blank" rel="noreferrer">Perform?</a>
 
 
                     </div>

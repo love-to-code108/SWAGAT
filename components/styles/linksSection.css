@@ -2,7 +2,7 @@
 /* THIS IS THE ROOT OR THE SUPER DIV */
 #LinksSection{
 
-    height: 105vh;
+    /* height: 102vh; */
     width: 100%;
 
     max-width: 1920px;
@@ -12,6 +12,8 @@
     position: relative;
 
     overflow: hidden;
+
+    padding-bottom: 2rem;
 
 }
 
@@ -78,6 +80,8 @@
     align-items: center;
 
     color: white;
+
+    cursor: pointer;
 }
 
 .smallSwagatSLogo{
@@ -217,7 +221,7 @@
     top: 0.9rem;
     left: 1rem;
 
-    z-index: +10;
+    z-index: 0;
 }
 
 

@@ -4,6 +4,8 @@ import { LandingPage } from "../components/LandingPage";
 import { LandingAnimation } from "../components/landingAnimation";
 import { LinksSection } from "../components/linkSection";
 import { Navbaar } from "../components/navbar";
+import { TheTicketSection } from "../components/theTicketSection";
+import { WebsiteUnderDevelopment } from "../components/websiteIsUnderDevelopment";
 
 
 // IMPORTING CSS BELOW
@@ -22,15 +24,23 @@ export const SinglePageApp = () => {
     const [landingAnimationState, setlandingAnimationState] = useState(true);
 
 
+
     return (
         <div>
             <AppContext.Provider value={{ setlandingAnimationState }} >
-            {/* <CommingSoon/> */}
-            {landingAnimationState && <LandingAnimation />}
-            <LandingPage />
-            <Navbaar/>
-            <LinksSection/>
+                {/* <CommingSoon/> */}
+                {landingAnimationState && <LandingAnimation />}
+
+
+                <LandingPage />
+                <Navbaar />
+                <LinksSection />
+
             </AppContext.Provider >
-        </div>
+
+            <TheTicketSection />
+            <WebsiteUnderDevelopment />
+
+        </div >
     );
 }

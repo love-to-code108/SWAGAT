@@ -251,13 +251,16 @@ to{
 #LandingAnimation {
 
   width: 100%;
-  height: 100svh;
+  /* height: 100svh; */
 
   background-color: black;
 
   position: fixed;
 
   z-index: +100;
+
+  padding-bottom: 2rem;
+  /* padding-top: 2rem; */
 
 
 }
@@ -324,6 +327,15 @@ to{
     height: 100svh;
   }
 }
+
+
+
+
+
+
+
+
+
 
 
 

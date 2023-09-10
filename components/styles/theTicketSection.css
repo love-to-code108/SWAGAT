@@ -1,0 +1,55 @@
+#TheTicketSectionDiv{
+
+    width: 100%;
+    max-width: 1920px;
+
+    background-color: black;
+    /* opacity: 0.1; */
+
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+
+    padding: 0rem 2rem;
+
+    
+
+    
+
+}
+
+.ticketImageTrim{
+
+    z-index: +10;
+    position: absolute;
+
+    width: 40rem;
+
+    padding: 0rem 9rem;
+    
+    /* padding: 0rem 8rem; */
+}
+
+
+#TheTicketSectionDiv2{
+
+    width: 100%;
+    max-width: 1920px;
+
+    background-color: black;
+    /* opacity: 0.1; */
+
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+
+    padding: 0rem 2rem;
+}
