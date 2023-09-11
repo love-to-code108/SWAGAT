@@ -204,12 +204,8 @@ export const LinksSection = () => {
 
                 {/* MORE SPONSORS COMMING SOON */}
                 <div className="scrollableElementsLinksSection mr-16"
-                    onClick={
-                        () => {
-                            window.open("https://chat.whatsapp.com/BqCxrCjfTXM4sUS5wc4qaf",
-                                "_blank")
-                        }
-                    }>
+                    
+                    >
 
 
                     <div className="smallSwagatSLogo"><img src={SofSwagat} alt="" /></div>
