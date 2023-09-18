@@ -4,8 +4,9 @@ import { LandingPage } from "../components/LandingPage";
 import { LandingAnimation } from "../components/landingAnimation";
 import { LinksSection } from "../components/linkSection";
 import { Navbaar } from "../components/navbar";
-import { TheTicketSection } from "../components/theTicketSection";
-import { WebsiteUnderDevelopment } from "../components/websiteIsUnderDevelopment";
+import TwentyFirstSeptemberEventsAndRules from "../components/twentyFirstSeptember";
+// import { TheTicketSection } from "../components/theTicketSection";
+// import { WebsiteUnderDevelopment } from "../components/websiteIsUnderDevelopment";
 
 
 // IMPORTING CSS BELOW
@@ -38,8 +39,9 @@ export const SinglePageApp = () => {
 
             </AppContext.Provider >
 
-            <TheTicketSection />
-            <WebsiteUnderDevelopment />
+            {/* <TheTicketSection /> */}
+            {/* <WebsiteUnderDevelopment /> */}
+            <TwentyFirstSeptemberEventsAndRules/>
 
         </div >
     );
