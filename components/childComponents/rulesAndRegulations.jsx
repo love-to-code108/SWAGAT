@@ -64,7 +64,7 @@ const RulesAndRegulations = () => {
                 <a className="
                      bg-white pt-1 px-2
                     "
-                    href="">REGISTER</a>
+                    href="">DOWNLOAD</a>
             </div>
 
 

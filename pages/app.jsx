@@ -41,7 +41,7 @@ export const SinglePageApp = () => {
 
             {/* <TheTicketSection /> */}
             {/* <WebsiteUnderDevelopment /> */}
-            <TwentyFirstSeptemberEventsAndRules/>
+            <TwentyFirstSeptemberEventsAndRules />
 
         </div >
     );
