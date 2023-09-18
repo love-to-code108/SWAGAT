@@ -6,6 +6,7 @@
 font-family: 'Borel', cursive;
 font-family: 'Courgette', cursive;
 font-family: 'Dancing Script', cursive;
+font-family: 'Grandstander', cursive;
 font-family: 'JetBrains Mono', monospace;
 font-family: 'Jost', sans-serif;
 font-family: 'Montserrat', sans-serif;
@@ -38,10 +39,6 @@ font-family: 'Ubuntu', sans-serif; */
   src: url(./assets/fonts/breakingBad.otf);
 }
 
-@font-face {
-  font-family: "squidGames";
-  src: url(./assets/fonts/squidGames.ttf);
-}
 
 @font-face {
   font-family: "gameOfThrones";
@@ -52,6 +49,17 @@ font-family: 'Ubuntu', sans-serif; */
   font-family: "sacredGames";
   src: url(./assets/fonts/Paraoh.ttf);
 } */
+
+
+@font-face {
+  font-family: "squidGames";
+  src: url(./assets/fonts/squidGames.ttf);
+}
+
+.font-squidGames {
+
+  font-family: "squidGames";
+}
 
 .font-netflix {
 
@@ -79,6 +87,10 @@ font-family: 'Ubuntu', sans-serif; */
   font-family: "Poppins";
 }
 
+.font-grand{
+
+  font-family: "Grandstander";
+}
 
 ::selection {
   color: white;

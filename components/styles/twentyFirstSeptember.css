@@ -7,11 +7,79 @@
     /* background-color: red; */
     background-color: black;
 
-    height: 100vh; /*----------*/
+    /* height: 100vh;  */
 
     padding: 0rem 2rem;
 
-    padding-top: 4REM;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
 }
 
+#EventBox{
+
+    width: 100%;
+    /* max-width: ; */
+
+    /* height: 20rem; */
+
+    background-color: rgba(173, 173, 173, 0.2);
+    border: 2px solid white;
+    border-radius: 8px;
+
+    position: relative;
+
+    padding: 2rem 1.6rem;
+
+    padding-bottom: 1.5rem;
+
+    margin-bottom: 5rem;
+
+    transition: 1s;
+}
+
+
+/* small logo of swagat */
+.smallLogoOfSwagat{
+
+    position: absolute;
+    top: 1.5rem;
+    left: 1.5rem;
+}
+
+.smallLogoOfSwagat2{
+
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+}
+
+
+.paragraphInEventBox{
+
+    font-size: 1rem;
+    line-height: 1.3rem;
+}
+
+#eventNumber{
+
+    width: 2.6rem;
+    height: 2.8rem;
+    background-color: red;
+
+    position: absolute;
+    top: -2.94rem;
+    right: 1rem;
+}
+
+#mrAndMrsFrehersTag{
+
+    position: absolute;
+
+    background-color: red;
+
+    bottom: -1.86rem;
+    left: 1.6rem;
+
+    padding: 0rem 0.4rem;
+}
 
