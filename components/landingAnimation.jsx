@@ -168,7 +168,7 @@ export const LandingAnimation = () => {
 
 
     return (
-        <div id="LandingAnimation" className=" flex justify-center items-center">
+        <div id="LandingAnimation" className=" flex justify-center items-center h-5/5">
 
 
 

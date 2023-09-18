@@ -1,6 +1,11 @@
 
 
 
+
+/* #LandingAnimation{
+
+    height: calc(100vh + 2rem);
+} */
 #beforeNetflixVideo{
 
     width: 100%;
