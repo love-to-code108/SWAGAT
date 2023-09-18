@@ -2,6 +2,7 @@ import "../src/index.css"
 import EventBox from "./childComponents/eventBox"
 import EventBox2 from "./childComponents/eventBox2"
 import EventBox3 from "./childComponents/eventBox3"
+import RulesAndRegulations from "./childComponents/rulesAndRegulations"
 import "./styles/twentyFirstSeptember.css"
 
 const TwentyFirstSeptemberEventsAndRules = () => {
@@ -76,28 +77,60 @@ const TwentyFirstSeptemberEventsAndRules = () => {
 
             {/* first box for treasure hunt */}
             <div>
-                <EventBox/>
+                <EventBox />
             </div>
 
 
             {/* Second box for UEM GOT TALENT */}
             <div>
-                <EventBox2/>
+                <EventBox2 />
             </div>
 
             {/* Third box for Rab ne banadi jodi */}
             <div>
-                <EventBox3/>
+                <EventBox3 />
             </div>
 
 
 
-            {/* want to mr and mrs freshers */}
 
-            {/* register button */}
+
+
+
+
+            {/* want to mr and mrs freshers */}
+            <div className="text-white font-netflix2 mb-12">
+
+                <div className="text-4xl mb-4">
+
+                    <p>WANT TO <span className="
+                    text-[#fa0005]">BE</span></p>
+
+                    <p>MR OR MRS FRESHERS <span className="
+                    text-[#fa0005]">?</span></p>
+
+                </div>
+
+
+                {/* register button */}
+                <div className="text-3xl text-[#fa0005]">
+
+                    <a className="
+                     bg-white pt-1 px-2
+                    "
+                        href="">REGISTER</a>
+                </div>
+
+
+            </div>
+
+
+
+
 
 
             {/* rules and regulations box */}
+            <RulesAndRegulations/>
 
 
 

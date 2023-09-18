@@ -51,7 +51,7 @@ const EventBox3 = () => {
             {/* div containing the paragraph */}
             <div>
                 <p className="
-                 text-white font-netflix paragraphInEventBox
+                 text-white font-netflix paragraphInEventBox2
                 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio recusandae eius quia libero optio tempore, iste porro, qui accusantium voluptate sint veniam. Molestias praesentium in corrupti, ducimus quibusdam eveniet. Quia delectus quae maiores rerum, ratione officiis hic sapiente assumenda voluptates, vitae aut quas similique asperiores dolorem placeat! Rem, impedit error!</p>
             </div>
 

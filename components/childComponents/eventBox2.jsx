@@ -1,7 +1,7 @@
 import "../../src/index.css"
 import "../styles/twentyFirstSeptember.css"
 
-// import smallSwagatLogo from "../../src/assets/svg/s.svg"
+import smallSwagatLogo from "../../src/assets/svg/s.svg"
 
 const EventBox2 = () => {
 
@@ -12,11 +12,11 @@ const EventBox2 = () => {
 
 
             {/* div containing the S of swagat */}
-            {/* <div className="
+            <div className="
              smallLogoOfSwagat
             ">
                 <img src={smallSwagatLogo} alt="" />
-            </div> */}
+            </div>
 
 
 
@@ -41,8 +41,8 @@ const EventBox2 = () => {
              mb-4
             ">
                 <p className="
-                 text-white font-grand text-3xl
-                ">RAB NE BANADI JORI</p>
+                 text-white font-grand text-4xl
+                ">JORI No. 1</p>
             </div>
 
 
