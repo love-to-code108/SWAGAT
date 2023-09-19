@@ -35,13 +35,13 @@ export const SinglePageApp = () => {
 
                 <LandingPage />
                 <Navbaar />
-                <LinksSection />
 
             </AppContext.Provider >
 
             {/* <TheTicketSection /> */}
             {/* <WebsiteUnderDevelopment /> */}
             <TwentyFirstSeptemberEventsAndRules />
+                <LinksSection />
 
         </div >
     );
