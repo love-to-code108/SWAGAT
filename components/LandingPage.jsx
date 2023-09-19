@@ -181,7 +181,7 @@ export const LandingPage = () => {
                 md:text-4xl
                 lg:text-5xl
                 xl:text-6xl
-                ">NOVATO FIESTA'S</p>
+                ">NOVATO FIESTA&apos;S</p>
             </div>
 
 

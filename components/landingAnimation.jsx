@@ -12,7 +12,7 @@ import swagatLogo from "../src/assets/svg/swagatLogo.svg"
 import redFace from "../src/assets/png/redImage.png"
 import racoonFace from "../src/assets/png/Netflix-avatar-6.png"
 // import greenFace from "../src/assets/png/Netflix-avatar-4.png"
-import angryBird from "../src/assets/png/angryBird.png"
+// import angryBird from "../src/assets/png/angryBird.png"
 
 
 // IMPORTING REACT AND OTHER LIBRARIES
@@ -168,7 +168,7 @@ export const LandingAnimation = () => {
 
 
     return (
-        <div id="LandingAnimation" className=" flex justify-center items-center">
+        <div id="LandingAnimation" className=" flex justify-center items-center h-5/5">
 
 
 
@@ -186,7 +186,7 @@ export const LandingAnimation = () => {
                 </div>
 
 
-                <p className="whoIsWatching">Who's <span>watching?</span></p>
+                <p className="whoIsWatching">Who&apos;s <span>watching?</span></p>
 
 
 

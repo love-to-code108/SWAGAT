@@ -16,7 +16,7 @@ export const LinksSection = () => {
 
             {/* SOME IMPORTANT LINKS WRITING GOES HERE */}
             <div className=" px-8 py-8">
-                <p className="font-netflix text-3xl text-white">Some Important Links</p>
+                {/* <p className="font-netflix text-3xl text-white">Some Important Links</p> */}
             </div>
 
 
@@ -100,7 +100,7 @@ export const LinksSection = () => {
 
             {/* FOR NOW THE DOWNLOAD PDF SECTION GOES HERE */}
             <div className=" px-8 py-8">
-                <p className="font-netflix text-3xl text-white">For More Info</p>
+                {/* <p className="font-netflix text-3xl text-white">For More Info</p> */}
             </div>
 
 
@@ -168,7 +168,7 @@ export const LinksSection = () => {
 
             {/* FOR NOW THE SPONSOR SECTION GOES HERE */}
             <div className=" px-8 py-8">
-                <p className="font-netflix text-3xl text-white">Sponsors</p>
+                {/* <p className="font-netflix text-3xl text-white">Sponsors</p> */}
             </div>
 
 
