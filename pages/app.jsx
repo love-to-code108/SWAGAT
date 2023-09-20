@@ -4,6 +4,7 @@ import { LandingPage } from "../components/LandingPage";
 import { LandingAnimation } from "../components/landingAnimation";
 import { LinksSection } from "../components/linkSection";
 import { Navbaar } from "../components/navbar";
+import TitleSponsor from "../components/titleSponsor";
 import TwentyFirstSeptemberEventsAndRules from "../components/twentyFirstSeptember";
 import TwentySecondSeptember from "../components/twentySecondSeptember";
 // import { TheTicketSection } from "../components/theTicketSection";
@@ -41,6 +42,7 @@ export const SinglePageApp = () => {
 
             {/* <TheTicketSection /> */}
             {/* <WebsiteUnderDevelopment /> */}
+            <TitleSponsor/>
             <TwentyFirstSeptemberEventsAndRules />
             <TwentySecondSeptember/>
             <LinksSection />
