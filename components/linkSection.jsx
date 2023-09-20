@@ -100,65 +100,7 @@ export const LinksSection = () => {
 
 
 
-            {/* FOR NOW THE DOWNLOAD PDF SECTION GOES HERE */}
-            <div className=" px-8 py-8">
-                {/* <p className="font-netflix text-3xl text-white">For More Info</p> */}
-            </div>
 
-
-            {/* THE HORIZONTALLY SCROLLABLE LINKS */}
-
-            <div id="WrapperForScrollableElements" className=" ml-8">
-
-
-                {/* PARTICIPATE SECTION  */}
-                <div className="scrollableElementsLinksSection2 mr-2 cursor-pointer"
-                    onClick={
-                        () => {
-                            window.open("https://forms.gle/jq7pNV9TDppB9Y8HA",
-                                "_blank")
-                        }
-                    }>
-
-
-                    <div className="smallSwagatSLogo3"><img src={SofSwagat} alt="" /></div>
-
-
-                    <div className="theWritingSectionInTheCards4 relative">
-
-                        <p className="font-netflix2 text-4xl text-[#E50914]  drop-shadow-lg mt-4">PERFORM</p>
-                        <p className="font-netflix2 text-2xl text-white relative bottom-2">ON 22ND SEPT</p>
-                    </div>
-
-
-                </div>
-
-
-
-                {/* DOWNLOAD PDF SECTION  */}
-                <div className="scrollableElementsLinksSection2 mr-12 cursor-pointer"
-                    onClick={
-                        () => {
-                            window.open("https://drive.google.com/file/d/12zqF5QZGGrE5PIQumDvwJVS7TgZhCGJP/view?usp=sharing",
-                                "_blank")
-                        }
-                    }>
-
-
-                    <div className="smallSwagatSLogo3"><img src={SofSwagat} alt="" /></div>
-
-
-                    <div className="theWritingSectionInTheCards3 relative">
-                        <p className="font-netflix2 text-4xl text-white ">OUTFIT </p>
-
-
-                        <p className="font-netflix2 text-4xl text-[#E50914] ml-2"> INSPO</p>
-
-                    </div>
-
-
-                </div>
-            </div>
 
 
 
@@ -196,7 +138,7 @@ export const LinksSection = () => {
 
                 {/* 1 MILLION SECTION  */}
                 <div className="scrollableElementsLinksSection5 mr-2"
-                    >
+                >
 
 
                     <div className="smallSwagatSLogo"><img src={SofSwagat} alt="" /></div>
@@ -204,13 +146,13 @@ export const LinksSection = () => {
 
                     <div className="theWritingSectionInTheCards2 relative">
                         <img src={oneMillionLogo} alt="" />
-                        
+
                     </div>
 
 
                 </div>
 
-                
+
 
 
 
@@ -267,8 +209,8 @@ export const LinksSection = () => {
 
                 {/* MORE SPONSORS COMMING SOON */}
                 <div className="scrollableElementsLinksSection mr-16"
-                    
-                    >
+
+                >
 
 
                     <div className="smallSwagatSLogo"><img src={SofSwagat} alt="" /></div>
@@ -276,9 +218,74 @@ export const LinksSection = () => {
 
                     <div className="theWritingSectionInTheCards relative">
                         <div className="font-netflix2 text-3xl">
-                            <p className="relative top-2">New <span className="text-[#e00813] text-4xl">SPONSORS</span> </p>
-                            <p ><span className="text-[#e00813] text-4xl">COMING</span> SOON</p>
+
+                            <p className=" ml-1 mt-2 text-center
+                            ">shree anjani electric motors chomu</p>
+
                         </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+
+
+
+            {/* FOR NOW THE DOWNLOAD PDF SECTION GOES HERE */}
+            <div className=" px-8 py-8">
+                {/* <p className="font-netflix text-3xl text-white">For More Info</p> */}
+            </div>
+
+
+            {/* THE HORIZONTALLY SCROLLABLE LINKS */}
+
+            <div id="WrapperForScrollableElements" className=" ml-8">
+
+
+                {/* PARTICIPATE SECTION  */}
+                {/* <div className="scrollableElementsLinksSection2 mr-2 cursor-pointer"
+                    onClick={
+                        () => {
+                            window.open("https://forms.gle/jq7pNV9TDppB9Y8HA",
+                                "_blank")
+                        }
+                    }>
+
+
+                    <div className="smallSwagatSLogo3"><img src={SofSwagat} alt="" /></div>
+
+
+                    <div className="theWritingSectionInTheCards4 relative">
+
+                        <p className="font-netflix2 text-4xl text-[#E50914]  drop-shadow-lg mt-4">PERFORM</p>
+                        <p className="font-netflix2 text-2xl text-white relative bottom-2">ON 22ND SEPT</p>
+                    </div>
+
+
+                </div> */}
+
+
+
+                {/* DOWNLOAD PDF SECTION  */}
+                <div className="scrollableElementsLinksSection2 mr-12 cursor-pointer"
+                    onClick={
+                        () => {
+                            window.open("https://drive.google.com/file/d/12zqF5QZGGrE5PIQumDvwJVS7TgZhCGJP/view?usp=sharing",
+                                "_blank")
+                        }
+                    }>
+
+
+                    <div className="smallSwagatSLogo3"><img src={SofSwagat} alt="" /></div>
+
+
+                    <div className="theWritingSectionInTheCards3 relative">
+                        <p className="font-netflix2 text-4xl text-white ">OUTFIT </p>
+
+
+                        <p className="font-netflix2 text-4xl text-[#E50914] ml-2"> INSPO</p>
+
                     </div>
 
 
