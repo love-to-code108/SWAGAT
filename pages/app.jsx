@@ -5,6 +5,7 @@ import { LandingAnimation } from "../components/landingAnimation";
 import { LinksSection } from "../components/linkSection";
 import { Navbaar } from "../components/navbar";
 import TwentyFirstSeptemberEventsAndRules from "../components/twentyFirstSeptember";
+import TwentySecondSeptember from "../components/twentySecondSeptember";
 // import { TheTicketSection } from "../components/theTicketSection";
 // import { WebsiteUnderDevelopment } from "../components/websiteIsUnderDevelopment";
 
@@ -41,7 +42,8 @@ export const SinglePageApp = () => {
             {/* <TheTicketSection /> */}
             {/* <WebsiteUnderDevelopment /> */}
             <TwentyFirstSeptemberEventsAndRules />
-                <LinksSection />
+            <TwentySecondSeptember/>
+            <LinksSection />
 
         </div >
     );

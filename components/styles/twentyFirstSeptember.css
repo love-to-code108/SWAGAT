@@ -117,5 +117,35 @@
 
 
 /* TWENTY SECOND SEPTEMBER */
+#TwentySecondSeptember{
 
+    width: 100%;
+    max-width: 1920px;
+
+    height: 100vh;
+    padding: 0rem 2rem;
+
+    background-color: black;
+    /* background-color: red; */
+
+}
+
+
+.twentySecondSeptember{
+
+    background-color: black;
+    width: 100%;
+
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+    
+}
+
+.oneMillionLogoEdit{
+
+    width: 10rem;
+
+}
 

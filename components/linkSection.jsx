@@ -1,10 +1,12 @@
 import "../src/index.css"
 import "./styles/linksSection.css"
 
+
 // IMPORTING IMAGES
 // import swagatLogoSmall from "../src/assets/svg/swagatSmallLogo.svg"
 import SofSwagat from "../src/assets/svg/s.svg"
 import GeeksForGeeksLogo from "../src/assets/svg/geeksForGeeksLogo.svg"
+import oneMillionLogo from "../src/assets/png/oneMilionLogo.png"
 
 export const LinksSection = () => {
 
@@ -178,6 +180,54 @@ export const LinksSection = () => {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                {/* 1 MILLION SECTION  */}
+                <div className="scrollableElementsLinksSection5 mr-2"
+                    >
+
+
+                    <div className="smallSwagatSLogo"><img src={SofSwagat} alt="" /></div>
+
+
+                    <div className="theWritingSectionInTheCards2 relative">
+                        <img src={oneMillionLogo} alt="" />
+                        
+                    </div>
+
+
+                </div>
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                 {/* GEEKS FOR GEEKS SECTION  */}
                 <div className="scrollableElementsLinksSection2 mr-2"
                     onClick={
@@ -198,6 +248,19 @@ export const LinksSection = () => {
 
 
                 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

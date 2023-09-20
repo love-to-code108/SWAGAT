@@ -252,6 +252,31 @@
 
 
 
+
+
+
+.scrollableElementsLinksSection5{
+
+    width: 15rem;
+    height: 10rem;
+
+    position: relative;
+
+    background-color: #82d9f5;
+    border: 2px solid #82d9f5;
+
+    min-width: 15rem;
+    border-radius: 8px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #0F2B3C;
+}
+
+
+
 .customShadow{
 
     text-shadow: 2px 2px 6px #D9D9D9 ;
