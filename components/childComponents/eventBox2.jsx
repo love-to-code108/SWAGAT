@@ -52,7 +52,7 @@ const EventBox2 = () => {
             <div>
                 <p className="
                  text-white font-netflix paragraphInEventBox mb-2
-                ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio recusandae eius quia libero optio tempore, iste porro, qui accusantium voluptate sint veniam. Molestias praesentium in corrupti, ducimus quibusdam eveniet. Quia delectus quae maiores rerum, ratione officiis hic sapiente assumenda voluptates, vitae aut quas similique asperiores dolorem placeat! Rem, impedit error!</p>
+                ">"Get ready to pop, groove, and balance your way to victory! Join us at Couple Round – Where Kabab Mein Baloon , Nach Baliye , and Aakhri Padav  bring out the best in couples. Are you up for the challenge? Let the games begin!"</p>
             </div>
 
 

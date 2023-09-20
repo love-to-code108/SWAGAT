@@ -172,6 +172,23 @@ export const LandingPage = () => {
 
 
 
+
+
+            {/* TRYING TO ADD THE 1 MILLION LOGO */}
+            <div>
+                
+            </div>
+
+
+
+
+
+
+
+
+
+
+
             {/* NOVATO FIESTA'S */}
             <div id="NovatoFiesta" className="flex justify-center items-center ">
                 <p className="novatoFiestaBox
@@ -183,6 +200,7 @@ export const LandingPage = () => {
                 xl:text-6xl
                 ">NOVATO FIESTA&apos;S</p>
             </div>
+
 
 
 

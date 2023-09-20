@@ -52,7 +52,7 @@ const EventBox = () => {
             <div>
                 <p className="
                  text-white font-netflix paragraphInEventBox mb-2
-                ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio recusandae eius quia libero optio tempore, iste porro, qui accusantium voluptate sint veniam. Molestias praesentium in corrupti, ducimus quibusdam eveniet. Quia delectus quae maiores rerum, ratione officiis hic sapiente assumenda voluptates, vitae aut quas similique asperiores dolorem placeat! Rem, impedit error!</p>
+                ">"Join UEM's Got Talent: solo, duo, or group acts, any talent welcome. Cheers in decibels decide winners. Talent Round points (swags) count for total score, unless you're in multiple rounds. Shine in the Treasure Hunt Round!"</p>
             </div>
 
 

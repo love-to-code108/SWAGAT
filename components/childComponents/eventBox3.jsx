@@ -52,7 +52,7 @@ const EventBox3 = () => {
             <div>
                 <p className="
                  text-white font-netflix paragraphInEventBox2
-                ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio recusandae eius quia libero optio tempore, iste porro, qui accusantium voluptate sint veniam. Molestias praesentium in corrupti, ducimus quibusdam eveniet. Quia delectus quae maiores rerum, ratione officiis hic sapiente assumenda voluptates, vitae aut quas similique asperiores dolorem placeat! Rem, impedit error!</p>
+                ">"Get ready for the thrill of UEM's Treasure Hunt! Form a 5-8 member team, including a Talent Round participant. Follow clues, stay together, and solve the ultimate mystery. Points are evenly split among all team members, and top 5 teams advance to the Ramp Walk Round!"</p>
             </div>
 
 
