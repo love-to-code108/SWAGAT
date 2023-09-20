@@ -52,7 +52,7 @@ const RulesAndRegulations = () => {
             <div className="mb-12">
                 <p className="
                  text-white font-netflix paragraphInEventBox
-                ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio recusandae eius quia libero optio tempore, iste porro, qui accusantium voluptate sint veniam. Molestias praesentium in corrupti, ducimus quibusdam eveniet.</p>
+                ">The spirit of unity and cooperation shines as every participant willingly adheres to the event's guidelines, creating a safe and enjoyable environment for all.For more details about rules and regulations please tap the download button.</p>
             </div>
 
 
@@ -64,7 +64,7 @@ const RulesAndRegulations = () => {
                 <a className="
                      bg-white pt-1 px-2
                     "
-                    href="">DOWNLOAD</a>
+                    href="https://drive.google.com/file/d/1aUbzn6hhteTBldkDbubEkBflJkexr5UF/view" >DOWNLOAD</a>
             </div>
 
 

@@ -7,6 +7,9 @@ import "./styles/landingPageAnimations.css"
 // import swagatLogo from "../src/assets/svg/swagatLogo.svg"
 import bottomIcon from "../src/assets/svg/white.svg"
 
+// importing 1 million log
+import oneMillion from "../src/assets/png/oneMilionLogo.png"
+
 // ALL LIBRARIES BELOW
 import gsap from "gsap"
 
@@ -172,6 +175,32 @@ export const LandingPage = () => {
 
 
 
+
+
+            {/* TRYING TO ADD THE 1 MILLION LOGO */}
+
+            <div className="wrapperForOneMillion">
+
+
+                <div className="oneMillionLogo">
+                    <img src={oneMillion} alt="" />
+
+                </div>
+                <p className="text-xl font-netflix2 text-white text-center relative top-6">PRESENTS</p>
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
             {/* NOVATO FIESTA'S */}
             <div id="NovatoFiesta" className="flex justify-center items-center ">
                 <p className="novatoFiestaBox
@@ -183,6 +212,7 @@ export const LandingPage = () => {
                 xl:text-6xl
                 ">NOVATO FIESTA&apos;S</p>
             </div>
+
 
 
 
