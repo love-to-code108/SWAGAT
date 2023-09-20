@@ -42,7 +42,7 @@ const EventBox = () => {
             ">
                 <p className="
                  text-white font-squidGames text-4xl
-                ">UEM GOT TALENT</p>
+                ">UEM'S GOT TALENT</p>
             </div>
 
 
