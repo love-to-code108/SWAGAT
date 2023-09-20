@@ -118,7 +118,8 @@ const TwentyFirstSeptemberEventsAndRules = () => {
                     <a className="
                      bg-white pt-1 px-2
                     "
-                        href="">REGISTER</a>
+                        href="https://docs.google.com/forms/d/e/1FAIpQLScvCyEZsqZGXprkplzZ-cf92v1eUIsfFzeizm0eLfL2PVJIbA/viewform"
+                        >REGISTER</a>
                 </div>
 
 

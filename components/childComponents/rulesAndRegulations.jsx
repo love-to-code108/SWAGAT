@@ -64,7 +64,7 @@ const RulesAndRegulations = () => {
                 <a className="
                      bg-white pt-1 px-2
                     "
-                    href="">DOWNLOAD</a>
+                    href="https://drive.google.com/file/d/1aUbzn6hhteTBldkDbubEkBflJkexr5UF/view" >DOWNLOAD</a>
             </div>
 
 
