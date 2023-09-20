@@ -19,9 +19,9 @@ const TwentySecondSeptember = () => {
             <div>
                 <p className="
                 text-[#fa0005] text-8xl font-netflix2
-                ">22 <span className="
+                ">22<span className="
                 text-white text-6xl
-                ">SEPTEMBER</span></p>
+                "><span className="text-[#fa0005]">nd</span> SEPTEMBER</span></p>
             </div>
         </div>
 
