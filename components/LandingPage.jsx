@@ -164,7 +164,7 @@ export const LandingPage = () => {
                         <a className="linkedin" href="https://www.linkedin.com/company/freshersuemj/" target="_blank" rel="noreferrer">Linkedin</a>
 
 
-                        <a className="Register" href="https://forms.gle/jq7pNV9TDppB9Y8HA" target="_blank" rel="noreferrer">Perform?</a>
+                        {/* <a className="Register" href="https://forms.gle/jq7pNV9TDppB9Y8HA" target="_blank" rel="noreferrer">Perform?</a> */}
 
 
                     </div>
