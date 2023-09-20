@@ -342,6 +342,35 @@ to{
 
 
 
+.wrapperForOneMillion{
+  position: relative;
+  background-color: black;
+  z-index: +1;
+
+  width: 2rem;
+  height: 2rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  bottom: 1.4rem;
+}
+
+
+
+.oneMillionLogo{
+
+  position: absolute;
+
+  width: 12rem;
+  height: auto;
+
+  margin-bottom: 0.8rem;
+}
+
+
 
 
 
