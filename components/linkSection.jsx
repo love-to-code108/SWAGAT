@@ -295,6 +295,14 @@ export const LinksSection = () => {
 
 
 
+            {/* be there */}
+            <div className="font-netflix2 text-white flex justify-center mt-40">
+
+                <div>
+                    <p className="text-4xl"><span className="text-4xl text-[#fa0005]">Be</span> there</p>
+                </div>
+            </div>
+
 
 
 

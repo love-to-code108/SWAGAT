@@ -30,13 +30,14 @@ const TwentyFirstSeptemberEventsAndRules = () => {
                     font-netflix2 text-2xl font-normal text-white
                     "
                     > SEPTEMBER</span>
+
                 </p>
 
 
 
                 {/* swagat ki shurwat */}
 
-                <div className="w-[100%] bg-black flex justify-start">
+                <div className="w-[100%] bg-black flex justify-start relative">
                     <p
                         className="
                         font-netflix2 font-normal text-5xl text-white
@@ -44,7 +45,20 @@ const TwentyFirstSeptemberEventsAndRules = () => {
                     >SWAGAT KI
                         <span className="
                          text-[#FF0000]"> SHURWAT</span></p>
+
+
+
+                    <div className="absolute flex bottom-[-3rem] right-[4.2rem] font-netflix2">
+
+                        <p className="text-[#fa0005] text-xl mr-2">meet <span className="text-white">you at</span></p>
+                        <p className=" text-white text-5xl">1:<span className="text-[#fa0005]">30</span>pm</p>
+
+
+                    </div>
                 </div>
+
+
+
 
 
             </div>
@@ -119,7 +133,7 @@ const TwentyFirstSeptemberEventsAndRules = () => {
                      bg-white pt-1 px-2
                     "
                         href="https://docs.google.com/forms/d/e/1FAIpQLScvCyEZsqZGXprkplzZ-cf92v1eUIsfFzeizm0eLfL2PVJIbA/viewform"
-                        >REGISTER</a>
+                    >REGISTER</a>
                 </div>
 
 
@@ -131,7 +145,7 @@ const TwentyFirstSeptemberEventsAndRules = () => {
 
 
             {/* rules and regulations box */}
-            <RulesAndRegulations/>
+            <RulesAndRegulations />
 
 
 
