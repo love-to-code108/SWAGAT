@@ -377,6 +377,37 @@ to{
 
 
 
+/* title sponsor */
+#TitleSponsor{
+
+  width: 100%;
+  max-width: 1920px;
+
+  height: 20rem;
+
+  background-color: black;
+
+  padding: 4rem;
+
+}
+
+
+.titleSponsorLogo{
+  width: 20rem;
+  padding: 2rem;
+
+  border-radius: 10px;
+
+  background-color: #82d9f5;
+}
+
+
+
+
+
+
+
+
 
 
 

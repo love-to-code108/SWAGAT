@@ -196,7 +196,7 @@ export const LandingAnimation = () => {
                     className="FreshersWatching1 w-[14rem] h-[14rem] ">
 
 
-                    <div id="ClickEvent" className=" freshersWatchingLogo flex justify-center items-center h-[14rem] w-[14rem]">
+                    <div id="ClickEvent" className=" freshersWatchingLogo flex justify-center items-center h-[14rem] w-[14rem] border-2">
                         <img src={racoonFace} alt="" />
                         {/* <img src={polygon} alt="" />
                         <img src={ellipse} alt="" />
@@ -214,7 +214,7 @@ export const LandingAnimation = () => {
                     className="FreshersWatching2 w-[14rem] h-[14rem] ">
 
 
-                    <div id="ClickEvent2" className=" freshersWatchingLogo flex justify-center items-center h-[14rem] w-[14rem]">
+                    <div id="ClickEvent2" className=" freshersWatchingLogo flex justify-center items-center h-[14rem] w-[14rem] border-2">
                         <img src={redFace} alt="" />
                         {/* <img src={polygon} alt="" />
                         <img src={ellipse} alt="" />

@@ -42,7 +42,7 @@ const EventBox2 = () => {
             ">
                 <p className="
                  text-white font-grand text-4xl
-                ">JORI No. 1</p>
+                ">JODI No. 1</p>
             </div>
 
 
